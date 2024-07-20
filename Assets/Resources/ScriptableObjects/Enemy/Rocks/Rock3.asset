@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27d15b24fcc5b424496a208027e893c7, type: 3}
+  m_Name: Rock3
+  m_EditorClassIdentifier: 
+  Index: 0
+  Name: Rockem'
+  Sprite: {fileID: -3229457778085692756, guid: 061e846bd4a5ba449bf75b630b1a7dcb, type: 3}
+  IsOverrideController: 1
+  AnimatorController: {fileID: 0}
+  AnimOverrideController: {fileID: 22100000, guid: 854de30f3977f904abe373fd44d41ded, type: 2}
+  BonusHealth: 2
+  BonusStrength: 4
+  JumpHeightMultiplier: 0
+  MSMultiplier: 1.5
+  ASMultiplier: 0

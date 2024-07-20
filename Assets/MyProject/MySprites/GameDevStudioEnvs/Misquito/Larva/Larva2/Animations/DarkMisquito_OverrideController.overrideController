@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DarkMisquito_OverrideController
+  m_Controller: {fileID: 9100000, guid: c25bafb3572dda74ab0fc1c47a974ffb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 356f539c9cb7fa143bd9b0b7643b2d4a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1bafbeb444de64d429423f40dfd2d2d4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a4904d551e8415643b4be76d6729ae0c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eb7cda1d67dbde040bcb047aa4cadd59, type: 2}

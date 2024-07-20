@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801492b3502fc074ab3f09082d64ac80, type: 3}
+  m_Name: MSPowerUp
+  m_EditorClassIdentifier: 
+  Index: 4
+  PowerUpType: 4
+  Sprite: {fileID: 21300000, guid: 102f713f6aac1fe4e90275c9e4eb584c, type: 3}
+  BonusHealth: 0
+  BonusStrength: 0
+  JumpHeightMultiplier: 1
+  MSMultiplier: 1.5
+  ASMultiplier: 1
+  SizeMultiplier: 1
+  Bounce:
+    BounceHeight: 2
+    BounceDuration: 1
+    MinBounces: 0
+    MaxBounces: 5

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8faf78e9ada5d44e9e0ddf6945de66a, type: 3}
+  m_Name: BuildCharacter
+  m_EditorClassIdentifier: 
+  Player:
+    Name: ReallYc00LNameBr0
+    Score: 0
+    Level: 0
+    MaxHealth: 0
+    CurrentHealth: 0
+    IsFullSize: 1
+    BaseStats: {fileID: 11400000, guid: ab119f58e52703e42b0f6e39d5988c58, type: 2}
+    Character:
+      Index: 1
+      Name: Ninja Frog
+      Sprite: {fileID: -6367560908665664636, guid: 44b47c7d1d6a9e843b842bc4d3f74b10, type: 3}
+      IsOverrideController: 0
+      AnimOverrideController: {fileID: 22100000, guid: 1e2cc0bb5f55bcc49a74fe1493634151, type: 2}
+      AnimatorController: {fileID: 0}
+      BonusHealth: 4
+      BonusStrength: 2
+      MSMultiplier: 3
+      JumpHeightMultiplier: 2.5
+      ASMultiplier: 1.5
+      SizeMultipler: 1
+    Agility: 0
+    TotalBonusHealth: 0
+    TotalBonusStrength: 0
+    TotalMSMultiplier: 0
+    TotalJumpMultiplier: 0
+    TotalASMultiplier: 0
+    TotalSizeMultipler: 0
+    GemCount:
+      StrenthGemCount: 0
+      HealthGemCount: 0
+      MSGemCount: 0
+      JumpGemCount: 0
+      ASGemCount: 0
+      SizeGemCount: 0

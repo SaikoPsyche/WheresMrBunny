@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Passage
+  - Ground
+  - Coin
+  - CoinText
+  - PlayerNameText
+  - PlayerTextPlaceholder
+  - StartScreen
+  - NewPlayer
+  - HPBar
+  - GemText
+  - Enemy
+  - CharacterNameText
+  - PlayerNameInput
+  - Managers
+  - PowerUp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Interactable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3412773541
+    locked: 0
+  - name: Plants
+    uniqueID: 49068305
+    locked: 0
+  - name: Environment
+    uniqueID: 2432946485
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Interactable
+    uniqueID: 689838421
+    locked: 0
+  - name: Player
+    uniqueID: 2572176319
+    locked: 0

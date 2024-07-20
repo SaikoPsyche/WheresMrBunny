@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 3349ba242f8c938478845290f6ccf9ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_5
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1867
+        width: 568
+        height: 620
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8cd4679f50c8e4ea71b8f39723e9f5
+      internalID: -1412200871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_8
+      rect:
+        serializedVersion: 2
+        x: 3788
+        y: 1855
+        width: 383
+        height: 632
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfba7930e5665b41b4502992681e5ba
+      internalID: 966195278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_9
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1878
+        width: 493
+        height: 600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c674fc9b6883942874c02d9b2ee9f3
+      internalID: -1341843349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_12
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1864
+        width: 436
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e9d30a7eac94b4fb5b9199b0d77d23
+      internalID: -621272936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_51
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 963
+        width: 429
+        height: 629
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4521f674695688b46971fb85ccc9e8aa
+      internalID: 359250624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_52
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1007
+        width: 501
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d35b5acf40e9e4d91e51b28625b304
+      internalID: 1842448385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_53
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 994
+        width: 501
+        height: 590
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26228579956a53040a053f9636f0fbbc
+      internalID: 1340704216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_57
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 977
+        width: 474
+        height: 600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cadb916555eae49b8868d25cc9173f
+      internalID: -925141652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_84
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 67
+        width: 431
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df87e7b020ae3054b9927ef980eb8665
+      internalID: 1133003964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_85
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 82
+        width: 527
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2251b5cf871777547a89ed8638f1359d
+      internalID: -1963985318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_86
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 62
+        width: 419
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed302f67ae7cf443a398c91d31830dd
+      internalID: -1364254353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_brown_fur_run_87
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 71
+        width: 376
+        height: 613
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0018a3e933978cd429ac16fb3ebbaf1d
+      internalID: 1668237474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      __cave_man_one_brown_fur_run_0: 16281004
+      __cave_man_one_brown_fur_run_1: 96239742
+      __cave_man_one_brown_fur_run_10: -1504229742
+      __cave_man_one_brown_fur_run_100: 880478548
+      __cave_man_one_brown_fur_run_101: -1556238586
+      __cave_man_one_brown_fur_run_102: 591921584
+      __cave_man_one_brown_fur_run_103: 354609514
+      __cave_man_one_brown_fur_run_104: -1255102539
+      __cave_man_one_brown_fur_run_105: 1029461177
+      __cave_man_one_brown_fur_run_106: -66248924
+      __cave_man_one_brown_fur_run_107: -304242651
+      __cave_man_one_brown_fur_run_11: 920705513
+      __cave_man_one_brown_fur_run_12: -621272936
+      __cave_man_one_brown_fur_run_13: -1596189894
+      __cave_man_one_brown_fur_run_14: 1300306583
+      __cave_man_one_brown_fur_run_15: -2041961081
+      __cave_man_one_brown_fur_run_16: 772011052
+      __cave_man_one_brown_fur_run_17: -218196337
+      __cave_man_one_brown_fur_run_18: -1943037202
+      __cave_man_one_brown_fur_run_19: 1973133195
+      __cave_man_one_brown_fur_run_2: -855997348
+      __cave_man_one_brown_fur_run_20: -573796303
+      __cave_man_one_brown_fur_run_21: 887003600
+      __cave_man_one_brown_fur_run_22: 1403307419
+      __cave_man_one_brown_fur_run_23: -677277132
+      __cave_man_one_brown_fur_run_24: -993159284
+      __cave_man_one_brown_fur_run_25: -813052001
+      __cave_man_one_brown_fur_run_26: 1607936219
+      __cave_man_one_brown_fur_run_27: -885599261
+      __cave_man_one_brown_fur_run_28: -297958879
+      __cave_man_one_brown_fur_run_29: -1772127881
+      __cave_man_one_brown_fur_run_3: -1456121586
+      __cave_man_one_brown_fur_run_30: -1696971067
+      __cave_man_one_brown_fur_run_31: 1364906152
+      __cave_man_one_brown_fur_run_32: -1956588565
+      __cave_man_one_brown_fur_run_33: -1254327708
+      __cave_man_one_brown_fur_run_34: -343040669
+      __cave_man_one_brown_fur_run_35: 765089657
+      __cave_man_one_brown_fur_run_36: 1036638293
+      __cave_man_one_brown_fur_run_37: -359179911
+      __cave_man_one_brown_fur_run_38: -221873235
+      __cave_man_one_brown_fur_run_39: -404522655
+      __cave_man_one_brown_fur_run_4: -1994557040
+      __cave_man_one_brown_fur_run_40: -472999841
+      __cave_man_one_brown_fur_run_41: -2024149651
+      __cave_man_one_brown_fur_run_42: 1417727727
+      __cave_man_one_brown_fur_run_43: -1774796148
+      __cave_man_one_brown_fur_run_44: -1232906132
+      __cave_man_one_brown_fur_run_45: -2102889222
+      __cave_man_one_brown_fur_run_46: 706605925
+      __cave_man_one_brown_fur_run_47: 2047466229
+      __cave_man_one_brown_fur_run_48: 1952371027
+      __cave_man_one_brown_fur_run_49: 1215541020
+      __cave_man_one_brown_fur_run_5: -1412200871
+      __cave_man_one_brown_fur_run_50: -1899196930
+      __cave_man_one_brown_fur_run_51: 359250624
+      __cave_man_one_brown_fur_run_52: 1842448385
+      __cave_man_one_brown_fur_run_53: 1340704216
+      __cave_man_one_brown_fur_run_54: 1491949642
+      __cave_man_one_brown_fur_run_55: 266134633
+      __cave_man_one_brown_fur_run_56: -1703411113
+      __cave_man_one_brown_fur_run_57: -925141652
+      __cave_man_one_brown_fur_run_58: -128977371
+      __cave_man_one_brown_fur_run_59: 579796149
+      __cave_man_one_brown_fur_run_6: 1614933823
+      __cave_man_one_brown_fur_run_60: -660989987
+      __cave_man_one_brown_fur_run_61: 498070062
+      __cave_man_one_brown_fur_run_62: -1019045261
+      __cave_man_one_brown_fur_run_63: 2065564603
+      __cave_man_one_brown_fur_run_64: -1005161786
+      __cave_man_one_brown_fur_run_65: 1810418979
+      __cave_man_one_brown_fur_run_66: -1471662495
+      __cave_man_one_brown_fur_run_67: 1206196033
+      __cave_man_one_brown_fur_run_68: 695801652
+      __cave_man_one_brown_fur_run_69: -1073687797
+      __cave_man_one_brown_fur_run_7: -1541564223
+      __cave_man_one_brown_fur_run_70: 979391261
+      __cave_man_one_brown_fur_run_71: -1828014981
+      __cave_man_one_brown_fur_run_72: -789927959
+      __cave_man_one_brown_fur_run_73: 1234067973
+      __cave_man_one_brown_fur_run_74: -1682775940
+      __cave_man_one_brown_fur_run_75: 1357287354
+      __cave_man_one_brown_fur_run_76: -1854011595
+      __cave_man_one_brown_fur_run_77: -1615634843
+      __cave_man_one_brown_fur_run_78: -2141721228
+      __cave_man_one_brown_fur_run_79: -1456829091
+      __cave_man_one_brown_fur_run_8: 966195278
+      __cave_man_one_brown_fur_run_80: -1349970696
+      __cave_man_one_brown_fur_run_81: 1133912625
+      __cave_man_one_brown_fur_run_82: 825163103
+      __cave_man_one_brown_fur_run_83: -986865664
+      __cave_man_one_brown_fur_run_84: 1133003964
+      __cave_man_one_brown_fur_run_85: -1963985318
+      __cave_man_one_brown_fur_run_86: -1364254353
+      __cave_man_one_brown_fur_run_87: 1668237474
+      __cave_man_one_brown_fur_run_88: 641275320
+      __cave_man_one_brown_fur_run_89: 747393103
+      __cave_man_one_brown_fur_run_9: -1341843349
+      __cave_man_one_brown_fur_run_90: 2038842433
+      __cave_man_one_brown_fur_run_91: -148802161
+      __cave_man_one_brown_fur_run_92: -255566274
+      __cave_man_one_brown_fur_run_93: -1242994230
+      __cave_man_one_brown_fur_run_94: -502426258
+      __cave_man_one_brown_fur_run_95: -1121071949
+      __cave_man_one_brown_fur_run_96: -1454229538
+      __cave_man_one_brown_fur_run_97: -1047138544
+      __cave_man_one_brown_fur_run_98: -1701015943
+      __cave_man_one_brown_fur_run_99: 1985219397
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

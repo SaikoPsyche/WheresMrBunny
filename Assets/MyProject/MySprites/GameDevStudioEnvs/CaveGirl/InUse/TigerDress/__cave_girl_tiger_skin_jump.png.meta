@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 17055e2188c6f9247b0a427e9e93663c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_4
+      rect:
+        serializedVersion: 2
+        x: 4955
+        y: 1293
+        width: 526
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b9d196501ea87429bebb403a552e3d
+      internalID: -2121894934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1203
+        width: 489
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0531a486cc691e47bb86532dfdb02fe
+      internalID: 1326050535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_10
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1201
+        width: 487
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c66b739e887fa48af764efe92ceae1
+      internalID: 330929692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_15
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1203
+        width: 524
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59862d39cc532f143a539aabeeb9f048
+      internalID: 1127103164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_17
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 1198
+        width: 493
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc9e0ef4f997d4f9314aadfc86becb
+      internalID: 218653948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_56
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 312
+        width: 529
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0cef62481d07344aefc0b6d574610e
+      internalID: 722197178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_57
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 355
+        width: 539
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a0f5961ef16054bb983b4065ef6949
+      internalID: -862686890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_58
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 245
+        width: 597
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf9701d60d2b0044928e9e3d6b4cf1c
+      internalID: -2047309332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_63
+      rect:
+        serializedVersion: 2
+        x: 4945
+        y: 207
+        width: 487
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284fddef9e25fbc4f95f2591568042b9
+      internalID: -1813033395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_jump_65
+      rect:
+        serializedVersion: 2
+        x: 3722
+        y: 213
+        width: 503
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f07b9870d7c3a4ebe1f4ff93539d93
+      internalID: 1128646552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      __cave_girl_tiger_skin_jump_0: -1697839794
+      __cave_girl_tiger_skin_jump_1: -1382742125
+      __cave_girl_tiger_skin_jump_10: 330929692
+      __cave_girl_tiger_skin_jump_11: -1843008642
+      __cave_girl_tiger_skin_jump_12: -237140075
+      __cave_girl_tiger_skin_jump_13: -1827638970
+      __cave_girl_tiger_skin_jump_14: 936037793
+      __cave_girl_tiger_skin_jump_15: 1127103164
+      __cave_girl_tiger_skin_jump_16: -785519720
+      __cave_girl_tiger_skin_jump_17: 218653948
+      __cave_girl_tiger_skin_jump_18: -1006576296
+      __cave_girl_tiger_skin_jump_19: -1540018981
+      __cave_girl_tiger_skin_jump_2: 298709425
+      __cave_girl_tiger_skin_jump_20: 1490035109
+      __cave_girl_tiger_skin_jump_21: 862556728
+      __cave_girl_tiger_skin_jump_22: -30593395
+      __cave_girl_tiger_skin_jump_23: -461521107
+      __cave_girl_tiger_skin_jump_24: 1782778800
+      __cave_girl_tiger_skin_jump_25: -1485746316
+      __cave_girl_tiger_skin_jump_26: -409845792
+      __cave_girl_tiger_skin_jump_27: 1647976354
+      __cave_girl_tiger_skin_jump_28: -835831516
+      __cave_girl_tiger_skin_jump_29: -2031761977
+      __cave_girl_tiger_skin_jump_3: 1133542558
+      __cave_girl_tiger_skin_jump_30: -586982234
+      __cave_girl_tiger_skin_jump_31: 859475142
+      __cave_girl_tiger_skin_jump_32: -202196820
+      __cave_girl_tiger_skin_jump_33: 635978296
+      __cave_girl_tiger_skin_jump_34: -1683542037
+      __cave_girl_tiger_skin_jump_35: 1562199652
+      __cave_girl_tiger_skin_jump_36: 483150319
+      __cave_girl_tiger_skin_jump_37: -1533555222
+      __cave_girl_tiger_skin_jump_38: -1353619001
+      __cave_girl_tiger_skin_jump_39: -1568104554
+      __cave_girl_tiger_skin_jump_4: -2121894934
+      __cave_girl_tiger_skin_jump_40: -900248141
+      __cave_girl_tiger_skin_jump_41: -482431117
+      __cave_girl_tiger_skin_jump_42: -1841465342
+      __cave_girl_tiger_skin_jump_43: -1739343957
+      __cave_girl_tiger_skin_jump_44: -3538880
+      __cave_girl_tiger_skin_jump_45: 28631742
+      __cave_girl_tiger_skin_jump_46: 40914081
+      __cave_girl_tiger_skin_jump_47: 1648412499
+      __cave_girl_tiger_skin_jump_48: 211020287
+      __cave_girl_tiger_skin_jump_49: 620191230
+      __cave_girl_tiger_skin_jump_5: -1645164018
+      __cave_girl_tiger_skin_jump_50: 2066431446
+      __cave_girl_tiger_skin_jump_51: 492220717
+      __cave_girl_tiger_skin_jump_52: -27977238
+      __cave_girl_tiger_skin_jump_53: -477639312
+      __cave_girl_tiger_skin_jump_54: -285090660
+      __cave_girl_tiger_skin_jump_55: -228509479
+      __cave_girl_tiger_skin_jump_56: 722197178
+      __cave_girl_tiger_skin_jump_57: -862686890
+      __cave_girl_tiger_skin_jump_58: -2047309332
+      __cave_girl_tiger_skin_jump_59: 383063474
+      __cave_girl_tiger_skin_jump_6: -1688453807
+      __cave_girl_tiger_skin_jump_60: -565648683
+      __cave_girl_tiger_skin_jump_61: -1324753060
+      __cave_girl_tiger_skin_jump_62: 2047445584
+      __cave_girl_tiger_skin_jump_63: -1813033395
+      __cave_girl_tiger_skin_jump_64: -2044272207
+      __cave_girl_tiger_skin_jump_65: 1128646552
+      __cave_girl_tiger_skin_jump_66: -135817700
+      __cave_girl_tiger_skin_jump_67: 563857691
+      __cave_girl_tiger_skin_jump_68: 1663700607
+      __cave_girl_tiger_skin_jump_69: -777722340
+      __cave_girl_tiger_skin_jump_7: 710820298
+      __cave_girl_tiger_skin_jump_70: -97616054
+      __cave_girl_tiger_skin_jump_71: -1617117864
+      __cave_girl_tiger_skin_jump_72: -1781639017
+      __cave_girl_tiger_skin_jump_73: 2137094625
+      __cave_girl_tiger_skin_jump_74: -132427879
+      __cave_girl_tiger_skin_jump_75: -1584393650
+      __cave_girl_tiger_skin_jump_76: 104609689
+      __cave_girl_tiger_skin_jump_77: 1801444632
+      __cave_girl_tiger_skin_jump_78: 1751013173
+      __cave_girl_tiger_skin_jump_79: 1902424932
+      __cave_girl_tiger_skin_jump_8: 1326050535
+      __cave_girl_tiger_skin_jump_80: -593434805
+      __cave_girl_tiger_skin_jump_81: 1756913854
+      __cave_girl_tiger_skin_jump_82: -313915239
+      __cave_girl_tiger_skin_jump_83: 404134176
+      __cave_girl_tiger_skin_jump_84: -1023312990
+      __cave_girl_tiger_skin_jump_85: -353144908
+      __cave_girl_tiger_skin_jump_86: 1895084042
+      __cave_girl_tiger_skin_jump_87: 1873667651
+      __cave_girl_tiger_skin_jump_88: -322622026
+      __cave_girl_tiger_skin_jump_89: 1257995193
+      __cave_girl_tiger_skin_jump_9: 457977871
+      __cave_girl_tiger_skin_jump_90: 1168499123
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

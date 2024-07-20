@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CaveGirl_TigerDress_OverrideControlelr
+  m_Controller: {fileID: 9100000, guid: ed6bf55e4fa49f44aa09e732c510a667, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 48942ec50055af341a66cb29087cc4f8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6fdc7776a76e7214d9a9d8d9db63465a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: db96cf66eb7e4f44bae74b39e5453a8a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 51fa7f857bad0a140bfcc59cd9b9f9a8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: df8184a5f9f69424da85f5c7f948f0b2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8adb5d3c3a643f34d9aa6d1d06723d99, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4322d75e56d96b64a98df175dd3f30da, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ec491543c76cc0a4b81225d1a3d7cf13, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d9560ee4217ef5b40b98c64a2c64795d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c6db3727a65230549a896b9633e8b069, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: af9c506db4d925842bad31036a1fbf83, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 36328ed7d6b61f54696942556d1f14a0, type: 2}

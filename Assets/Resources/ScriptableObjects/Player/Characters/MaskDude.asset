@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27d15b24fcc5b424496a208027e893c7, type: 3}
+  m_Name: MaskDude
+  m_EditorClassIdentifier: 
+  Index: 0
+  Name: Mask Dude
+  Sprite: {fileID: -6367560908665664636, guid: f51f1081aab605645a159add6891dd21, type: 3}
+  IsOverrideController: 1
+  AnimatorController: {fileID: 0}
+  AnimOverrideController: {fileID: 22100000, guid: fe90a04deae91d84695b87ab63aff1b4, type: 2}
+  BonusHealth: 3
+  BonusStrength: 3
+  JumpHeightMultiplier: 0.7
+  MSMultiplier: 1
+  ASMultiplier: 1
+  SizeMultiplier: 1

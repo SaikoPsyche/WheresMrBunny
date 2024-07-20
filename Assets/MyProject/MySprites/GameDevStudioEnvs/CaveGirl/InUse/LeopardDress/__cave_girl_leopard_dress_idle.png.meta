@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 9618662f1afdae444b37f2fba57a3191
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 3183
+        width: 489
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87bc2b25b8e7bc429b1baa946a6c575
+      internalID: -439313345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_7
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 3183
+        width: 483
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e838fba1765064fbcca0bbe4e39929
+      internalID: -1560008883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_9
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 3187
+        width: 481
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a0b2d5248e70a438fc42481387e50a
+      internalID: -808593283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_10
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 3187
+        width: 485
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b80fc6d8d086bf479df98d834ea8edc
+      internalID: -2001375396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_11
+      rect:
+        serializedVersion: 2
+        x: 4973
+        y: 3183
+        width: 504
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a35f80c7403fb4bb946c9e9b5563c4
+      internalID: 1034323278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_51
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 2196
+        width: 500
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209cd09755dc2cf4b97b44e8e7fd153d
+      internalID: -789836218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_55
+      rect:
+        serializedVersion: 2
+        x: 4972
+        y: 2193
+        width: 495
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c4d00d292d292488b98940a2fb633e
+      internalID: 1553675608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_59
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2196
+        width: 489
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fa01e267173664dad3b25038036bac
+      internalID: -35426048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_61
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2196
+        width: 506
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377805a2862cf1045a894b9f18f6bd3e
+      internalID: -452492897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_63
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 2196
+        width: 490
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36287f8536625f64782fe5d58326f363
+      internalID: -72581297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_95
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1199
+        width: 496
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd979467a550fc47809577cc724c2db
+      internalID: 1833585570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_101
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1199
+        width: 497
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3dbac6c0391d04e9225a6cf08b7912
+      internalID: -835385341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_104
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 1204
+        width: 490
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec152918753ac74295fcc748da526b9
+      internalID: 1670235635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_105
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 1204
+        width: 485
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a744085d55425ee46abb63070759cf0b
+      internalID: 1291660937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_106
+      rect:
+        serializedVersion: 2
+        x: 4980
+        y: 1204
+        width: 497
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90aa0632b5117074f881e4ee769d9f92
+      internalID: 541548642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_142
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 210
+        width: 488
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd0f3ead7e0c5b4e8f466430b0b1ce3
+      internalID: -1951300251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_143
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 210
+        width: 505
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0812fea8a2c5a4f8046b03b6d16591
+      internalID: 1991338181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_145
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 207
+        width: 481
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f736e2aedcc074b498596d56c82bb9ca
+      internalID: 1737398255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_148
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 210
+        width: 488
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d9d82d409d3054aabc0131837e61fa
+      internalID: 30695859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_idle_150
+      rect:
+        serializedVersion: 2
+        x: 4980
+        y: 210
+        width: 481
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923054f965faa8f41ba58f5ec55af561
+      internalID: -232974974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      __cave_girl_leopard_dress_idle_0: 1188966525
+      __cave_girl_leopard_dress_idle_1: 1629060157
+      __cave_girl_leopard_dress_idle_10: -2001375396
+      __cave_girl_leopard_dress_idle_100: 1319509738
+      __cave_girl_leopard_dress_idle_101: -835385341
+      __cave_girl_leopard_dress_idle_102: 1608317358
+      __cave_girl_leopard_dress_idle_103: 744175923
+      __cave_girl_leopard_dress_idle_104: 1670235635
+      __cave_girl_leopard_dress_idle_105: 1291660937
+      __cave_girl_leopard_dress_idle_106: 541548642
+      __cave_girl_leopard_dress_idle_107: 1154044428
+      __cave_girl_leopard_dress_idle_108: 1671658012
+      __cave_girl_leopard_dress_idle_109: 393674406
+      __cave_girl_leopard_dress_idle_11: 1034323278
+      __cave_girl_leopard_dress_idle_110: -482544307
+      __cave_girl_leopard_dress_idle_111: -2126786651
+      __cave_girl_leopard_dress_idle_112: -744106321
+      __cave_girl_leopard_dress_idle_113: -918908396
+      __cave_girl_leopard_dress_idle_114: 1327534171
+      __cave_girl_leopard_dress_idle_115: 161527799
+      __cave_girl_leopard_dress_idle_116: -1742300464
+      __cave_girl_leopard_dress_idle_117: -417040022
+      __cave_girl_leopard_dress_idle_118: -1495670416
+      __cave_girl_leopard_dress_idle_119: -1931809056
+      __cave_girl_leopard_dress_idle_12: -711754412
+      __cave_girl_leopard_dress_idle_120: 942339261
+      __cave_girl_leopard_dress_idle_121: 954205440
+      __cave_girl_leopard_dress_idle_122: 1451584286
+      __cave_girl_leopard_dress_idle_123: -1537012551
+      __cave_girl_leopard_dress_idle_124: -795999072
+      __cave_girl_leopard_dress_idle_125: 1405459849
+      __cave_girl_leopard_dress_idle_126: 1937507220
+      __cave_girl_leopard_dress_idle_127: 1406812182
+      __cave_girl_leopard_dress_idle_128: -1723590268
+      __cave_girl_leopard_dress_idle_129: -1849718579
+      __cave_girl_leopard_dress_idle_13: 210674643
+      __cave_girl_leopard_dress_idle_130: -256915089
+      __cave_girl_leopard_dress_idle_131: 249184232
+      __cave_girl_leopard_dress_idle_132: 883033459
+      __cave_girl_leopard_dress_idle_133: 1878097696
+      __cave_girl_leopard_dress_idle_134: -881563929
+      __cave_girl_leopard_dress_idle_135: 1229363999
+      __cave_girl_leopard_dress_idle_136: 1612675662
+      __cave_girl_leopard_dress_idle_137: 1161542624
+      __cave_girl_leopard_dress_idle_138: -505349645
+      __cave_girl_leopard_dress_idle_139: -864390411
+      __cave_girl_leopard_dress_idle_14: 1830512812
+      __cave_girl_leopard_dress_idle_140: 1420580836
+      __cave_girl_leopard_dress_idle_141: -998137703
+      __cave_girl_leopard_dress_idle_142: -1951300251
+      __cave_girl_leopard_dress_idle_143: 1991338181
+      __cave_girl_leopard_dress_idle_144: -1037588
+      __cave_girl_leopard_dress_idle_145: 1737398255
+      __cave_girl_leopard_dress_idle_146: 2053015159
+      __cave_girl_leopard_dress_idle_147: -1988650320
+      __cave_girl_leopard_dress_idle_148: 30695859
+      __cave_girl_leopard_dress_idle_149: -190832268
+      __cave_girl_leopard_dress_idle_15: 343821561
+      __cave_girl_leopard_dress_idle_150: -232974974
+      __cave_girl_leopard_dress_idle_151: -1848115657
+      __cave_girl_leopard_dress_idle_152: 161972215
+      __cave_girl_leopard_dress_idle_153: 1034803700
+      __cave_girl_leopard_dress_idle_154: -628879738
+      __cave_girl_leopard_dress_idle_155: -883823833
+      __cave_girl_leopard_dress_idle_156: -941354865
+      __cave_girl_leopard_dress_idle_157: 683252202
+      __cave_girl_leopard_dress_idle_158: -2012489336
+      __cave_girl_leopard_dress_idle_159: 1669444452
+      __cave_girl_leopard_dress_idle_16: 1693877573
+      __cave_girl_leopard_dress_idle_160: 28360798
+      __cave_girl_leopard_dress_idle_161: 1894663018
+      __cave_girl_leopard_dress_idle_162: -1011186318
+      __cave_girl_leopard_dress_idle_163: -1138342931
+      __cave_girl_leopard_dress_idle_164: -1826599787
+      __cave_girl_leopard_dress_idle_165: 543777896
+      __cave_girl_leopard_dress_idle_166: 912920952
+      __cave_girl_leopard_dress_idle_167: 1652995056
+      __cave_girl_leopard_dress_idle_168: -1053967176
+      __cave_girl_leopard_dress_idle_169: -1746044324
+      __cave_girl_leopard_dress_idle_17: -1000708602
+      __cave_girl_leopard_dress_idle_170: 1550460349
+      __cave_girl_leopard_dress_idle_171: -1999647738
+      __cave_girl_leopard_dress_idle_172: -1881382960
+      __cave_girl_leopard_dress_idle_173: 193058219
+      __cave_girl_leopard_dress_idle_174: 1282766188
+      __cave_girl_leopard_dress_idle_175: 1344430133
+      __cave_girl_leopard_dress_idle_176: 1737844036
+      __cave_girl_leopard_dress_idle_177: -1740937209
+      __cave_girl_leopard_dress_idle_18: -176145146
+      __cave_girl_leopard_dress_idle_19: -1768157637
+      __cave_girl_leopard_dress_idle_2: 130391131
+      __cave_girl_leopard_dress_idle_20: 1637440185
+      __cave_girl_leopard_dress_idle_21: -2116639901
+      __cave_girl_leopard_dress_idle_22: -466581786
+      __cave_girl_leopard_dress_idle_23: 670837735
+      __cave_girl_leopard_dress_idle_24: 216567717
+      __cave_girl_leopard_dress_idle_25: -1606356154
+      __cave_girl_leopard_dress_idle_26: 672517073
+      __cave_girl_leopard_dress_idle_27: -827424997
+      __cave_girl_leopard_dress_idle_28: 544659807
+      __cave_girl_leopard_dress_idle_29: 556120099
+      __cave_girl_leopard_dress_idle_3: -1759105106
+      __cave_girl_leopard_dress_idle_30: -1361387071
+      __cave_girl_leopard_dress_idle_31: -1609915884
+      __cave_girl_leopard_dress_idle_32: 167125009
+      __cave_girl_leopard_dress_idle_33: 328798593
+      __cave_girl_leopard_dress_idle_34: 1474381776
+      __cave_girl_leopard_dress_idle_35: 1930982490
+      __cave_girl_leopard_dress_idle_36: 1811202625
+      __cave_girl_leopard_dress_idle_37: -1243155538
+      __cave_girl_leopard_dress_idle_38: 381315442
+      __cave_girl_leopard_dress_idle_39: 421344450
+      __cave_girl_leopard_dress_idle_4: 528646069
+      __cave_girl_leopard_dress_idle_40: 754885326
+      __cave_girl_leopard_dress_idle_41: 1523627992
+      __cave_girl_leopard_dress_idle_42: 2109625746
+      __cave_girl_leopard_dress_idle_43: 1538229333
+      __cave_girl_leopard_dress_idle_44: 1771930416
+      __cave_girl_leopard_dress_idle_45: 1920273082
+      __cave_girl_leopard_dress_idle_46: -1300418657
+      __cave_girl_leopard_dress_idle_47: -1115840893
+      __cave_girl_leopard_dress_idle_48: -1889798128
+      __cave_girl_leopard_dress_idle_49: -106841007
+      __cave_girl_leopard_dress_idle_5: 411741494
+      __cave_girl_leopard_dress_idle_50: 313528007
+      __cave_girl_leopard_dress_idle_51: -789836218
+      __cave_girl_leopard_dress_idle_52: -834355057
+      __cave_girl_leopard_dress_idle_53: -1016281069
+      __cave_girl_leopard_dress_idle_54: 573942373
+      __cave_girl_leopard_dress_idle_55: 1553675608
+      __cave_girl_leopard_dress_idle_56: 1681090918
+      __cave_girl_leopard_dress_idle_57: 1017015600
+      __cave_girl_leopard_dress_idle_58: 354136584
+      __cave_girl_leopard_dress_idle_59: -35426048
+      __cave_girl_leopard_dress_idle_6: -439313345
+      __cave_girl_leopard_dress_idle_60: -1074209409
+      __cave_girl_leopard_dress_idle_61: -452492897
+      __cave_girl_leopard_dress_idle_62: 1586059858
+      __cave_girl_leopard_dress_idle_63: -72581297
+      __cave_girl_leopard_dress_idle_64: 1090539704
+      __cave_girl_leopard_dress_idle_65: -982031393
+      __cave_girl_leopard_dress_idle_66: 1707715484
+      __cave_girl_leopard_dress_idle_67: -1301752241
+      __cave_girl_leopard_dress_idle_68: 21695972
+      __cave_girl_leopard_dress_idle_69: -198858500
+      __cave_girl_leopard_dress_idle_7: -1560008883
+      __cave_girl_leopard_dress_idle_70: 355612183
+      __cave_girl_leopard_dress_idle_71: -746965433
+      __cave_girl_leopard_dress_idle_72: -857223624
+      __cave_girl_leopard_dress_idle_73: 1543424576
+      __cave_girl_leopard_dress_idle_74: 1826729770
+      __cave_girl_leopard_dress_idle_75: -1970068901
+      __cave_girl_leopard_dress_idle_76: -965997079
+      __cave_girl_leopard_dress_idle_77: 347412206
+      __cave_girl_leopard_dress_idle_78: -1432889205
+      __cave_girl_leopard_dress_idle_79: 441682514
+      __cave_girl_leopard_dress_idle_8: 515643547
+      __cave_girl_leopard_dress_idle_80: -1325054408
+      __cave_girl_leopard_dress_idle_81: 136287039
+      __cave_girl_leopard_dress_idle_82: -483142755
+      __cave_girl_leopard_dress_idle_83: -30785018
+      __cave_girl_leopard_dress_idle_84: 1703785820
+      __cave_girl_leopard_dress_idle_85: 554845381
+      __cave_girl_leopard_dress_idle_86: -1997378886
+      __cave_girl_leopard_dress_idle_87: 1367957275
+      __cave_girl_leopard_dress_idle_88: -297023851
+      __cave_girl_leopard_dress_idle_89: -1269791870
+      __cave_girl_leopard_dress_idle_9: -808593283
+      __cave_girl_leopard_dress_idle_90: -1613256776
+      __cave_girl_leopard_dress_idle_91: 34102171
+      __cave_girl_leopard_dress_idle_92: 1125416376
+      __cave_girl_leopard_dress_idle_93: -766532313
+      __cave_girl_leopard_dress_idle_94: 803629643
+      __cave_girl_leopard_dress_idle_95: 1833585570
+      __cave_girl_leopard_dress_idle_96: 192820977
+      __cave_girl_leopard_dress_idle_97: 46225442
+      __cave_girl_leopard_dress_idle_98: 159941273
+      __cave_girl_leopard_dress_idle_99: 1326025544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

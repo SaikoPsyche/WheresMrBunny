@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 55314aebb5270bd4faed82d2e28cd263
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1203
+        width: 489
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581319d5c97f3aa47b476375021cd8e2
+      internalID: 739111574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_12
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1203
+        width: 483
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7479cb6cb113fc24881e47b014fe12c5
+      internalID: -1271052119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_15
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1203
+        width: 481
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a28c89e882c48e46b515a2f0c7de26b
+      internalID: -1886261486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_18
+      rect:
+        serializedVersion: 2
+        x: 3679
+        y: 1203
+        width: 599
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2ab53efc45f8b48b7e18dbd32014de
+      internalID: 827858001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_21
+      rect:
+        serializedVersion: 2
+        x: 4886
+        y: 1201
+        width: 591
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf72b57b6a4990c43b6d816ab8fcb609
+      internalID: -321256298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_55
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 213
+        width: 481
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69835f6ef19c1640b4d2005d16baa8f
+      internalID: 1307247025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_60
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 210
+        width: 558
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb0129877348b44280b0d42bfaf2ff5
+      internalID: 639879276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_62
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 213
+        width: 494
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fc776c9e0d78b4796e21fb0bb70032
+      internalID: 997186461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_63
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 213
+        width: 485
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecde229176b8bba4a84dac85c9dd9f28
+      internalID: -1342749705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_tiger_skin_fire_bow_64
+      rect:
+        serializedVersion: 2
+        x: 4980
+        y: 210
+        width: 481
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a74be111bcc014d8bf3d4d2c07ba7d
+      internalID: 1273569399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      __cave_girl_tiger_skin_fire_bow_0: -1251631644
+      __cave_girl_tiger_skin_fire_bow_1: 2083233391
+      __cave_girl_tiger_skin_fire_bow_10: 739111574
+      __cave_girl_tiger_skin_fire_bow_11: -74399610
+      __cave_girl_tiger_skin_fire_bow_12: -1271052119
+      __cave_girl_tiger_skin_fire_bow_13: -2062209715
+      __cave_girl_tiger_skin_fire_bow_14: 679076874
+      __cave_girl_tiger_skin_fire_bow_15: -1886261486
+      __cave_girl_tiger_skin_fire_bow_16: 939430833
+      __cave_girl_tiger_skin_fire_bow_17: 1855045227
+      __cave_girl_tiger_skin_fire_bow_18: 827858001
+      __cave_girl_tiger_skin_fire_bow_19: -2045253170
+      __cave_girl_tiger_skin_fire_bow_2: 922790814
+      __cave_girl_tiger_skin_fire_bow_20: -1787077481
+      __cave_girl_tiger_skin_fire_bow_21: -321256298
+      __cave_girl_tiger_skin_fire_bow_22: -63118269
+      __cave_girl_tiger_skin_fire_bow_23: -710092954
+      __cave_girl_tiger_skin_fire_bow_24: -830363246
+      __cave_girl_tiger_skin_fire_bow_25: 2120069103
+      __cave_girl_tiger_skin_fire_bow_26: 1966916053
+      __cave_girl_tiger_skin_fire_bow_27: 1014647741
+      __cave_girl_tiger_skin_fire_bow_28: -1975878789
+      __cave_girl_tiger_skin_fire_bow_29: -2129701094
+      __cave_girl_tiger_skin_fire_bow_3: -169381601
+      __cave_girl_tiger_skin_fire_bow_30: 1382900400
+      __cave_girl_tiger_skin_fire_bow_31: -2119088532
+      __cave_girl_tiger_skin_fire_bow_32: 398340668
+      __cave_girl_tiger_skin_fire_bow_33: 370460170
+      __cave_girl_tiger_skin_fire_bow_34: 396565295
+      __cave_girl_tiger_skin_fire_bow_35: 650435515
+      __cave_girl_tiger_skin_fire_bow_36: -774307006
+      __cave_girl_tiger_skin_fire_bow_37: 364093267
+      __cave_girl_tiger_skin_fire_bow_38: 1167751668
+      __cave_girl_tiger_skin_fire_bow_39: -342133116
+      __cave_girl_tiger_skin_fire_bow_4: 721355084
+      __cave_girl_tiger_skin_fire_bow_40: -581070156
+      __cave_girl_tiger_skin_fire_bow_41: -1028543077
+      __cave_girl_tiger_skin_fire_bow_42: -1922763325
+      __cave_girl_tiger_skin_fire_bow_43: 1613611267
+      __cave_girl_tiger_skin_fire_bow_44: 870200665
+      __cave_girl_tiger_skin_fire_bow_45: -1301012298
+      __cave_girl_tiger_skin_fire_bow_46: -1365777583
+      __cave_girl_tiger_skin_fire_bow_47: 93458281
+      __cave_girl_tiger_skin_fire_bow_48: -1090317916
+      __cave_girl_tiger_skin_fire_bow_49: 1289450786
+      __cave_girl_tiger_skin_fire_bow_5: 968830489
+      __cave_girl_tiger_skin_fire_bow_50: -991323575
+      __cave_girl_tiger_skin_fire_bow_51: 1505062979
+      __cave_girl_tiger_skin_fire_bow_52: 275892128
+      __cave_girl_tiger_skin_fire_bow_53: -2079859396
+      __cave_girl_tiger_skin_fire_bow_54: 1314396882
+      __cave_girl_tiger_skin_fire_bow_55: 1307247025
+      __cave_girl_tiger_skin_fire_bow_56: 14930594
+      __cave_girl_tiger_skin_fire_bow_57: -795951943
+      __cave_girl_tiger_skin_fire_bow_58: -586833799
+      __cave_girl_tiger_skin_fire_bow_59: 1903676558
+      __cave_girl_tiger_skin_fire_bow_6: 1951251210
+      __cave_girl_tiger_skin_fire_bow_60: 639879276
+      __cave_girl_tiger_skin_fire_bow_61: -2040422485
+      __cave_girl_tiger_skin_fire_bow_62: 997186461
+      __cave_girl_tiger_skin_fire_bow_63: -1342749705
+      __cave_girl_tiger_skin_fire_bow_64: 1273569399
+      __cave_girl_tiger_skin_fire_bow_65: -59592566
+      __cave_girl_tiger_skin_fire_bow_66: -935453137
+      __cave_girl_tiger_skin_fire_bow_67: 394863601
+      __cave_girl_tiger_skin_fire_bow_68: -1049345553
+      __cave_girl_tiger_skin_fire_bow_69: 579893948
+      __cave_girl_tiger_skin_fire_bow_7: 1734424265
+      __cave_girl_tiger_skin_fire_bow_70: -1525708911
+      __cave_girl_tiger_skin_fire_bow_71: 424142124
+      __cave_girl_tiger_skin_fire_bow_72: 1110942974
+      __cave_girl_tiger_skin_fire_bow_73: -1958183473
+      __cave_girl_tiger_skin_fire_bow_74: -440813441
+      __cave_girl_tiger_skin_fire_bow_75: 1662882839
+      __cave_girl_tiger_skin_fire_bow_76: -1487335214
+      __cave_girl_tiger_skin_fire_bow_77: 106816907
+      __cave_girl_tiger_skin_fire_bow_78: -1508137150
+      __cave_girl_tiger_skin_fire_bow_79: -1681577352
+      __cave_girl_tiger_skin_fire_bow_8: 1406751977
+      __cave_girl_tiger_skin_fire_bow_80: 875330944
+      __cave_girl_tiger_skin_fire_bow_81: -293414248
+      __cave_girl_tiger_skin_fire_bow_82: 97655038
+      __cave_girl_tiger_skin_fire_bow_83: -1934696795
+      __cave_girl_tiger_skin_fire_bow_84: 1088729049
+      __cave_girl_tiger_skin_fire_bow_85: 255942037
+      __cave_girl_tiger_skin_fire_bow_86: 1971017533
+      __cave_girl_tiger_skin_fire_bow_87: -1971669740
+      __cave_girl_tiger_skin_fire_bow_88: 517622600
+      __cave_girl_tiger_skin_fire_bow_89: 157087099
+      __cave_girl_tiger_skin_fire_bow_9: -1765118896
+      __cave_girl_tiger_skin_fire_bow_90: -681510460
+      __cave_girl_tiger_skin_fire_bow_91: 1266861746
+      __cave_girl_tiger_skin_fire_bow_92: -1437590880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 076397acf50b12d40a6ce0f2177a7cd7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_3
+      rect:
+        serializedVersion: 2
+        x: 4955
+        y: 1293
+        width: 526
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8f17bdcc253f04ab32b72737247413
+      internalID: -933792116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1203
+        width: 489
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da54f1677b59af740a5c387f23a5953c
+      internalID: 122649276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_8
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1201
+        width: 487
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d31d9ee5aedb1c409bf7cc0c0d3f2e3
+      internalID: -1777271902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_11
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1203
+        width: 524
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1508757d5e945354a917df6e63786322
+      internalID: -1728533588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_12
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 1198
+        width: 493
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0219742f31e40414e8c9b90455135127
+      internalID: 2100554384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_41
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 312
+        width: 529
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4112dfee88dde29419131826025e367b
+      internalID: 130535561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_42
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 355
+        width: 540
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9852797308ade9e4a8810ba012a7abde
+      internalID: 1779136158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_43
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 245
+        width: 597
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945ae6813db4aec49ac02d27f101035e
+      internalID: 2073525188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_45
+      rect:
+        serializedVersion: 2
+        x: 3722
+        y: 213
+        width: 503
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd37b3f6d9403548b26597453b9821a
+      internalID: 1451832378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_girl_leopard_dress_jump_47
+      rect:
+        serializedVersion: 2
+        x: 4945
+        y: 207
+        width: 487
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb744b698bcbc3945975aac36b0334f8
+      internalID: 1229757889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      __cave_girl_leopard_dress_jump_0: 1207750877
+      __cave_girl_leopard_dress_jump_1: -359224041
+      __cave_girl_leopard_dress_jump_10: -1640740869
+      __cave_girl_leopard_dress_jump_11: -1728533588
+      __cave_girl_leopard_dress_jump_12: 2100554384
+      __cave_girl_leopard_dress_jump_13: -467906725
+      __cave_girl_leopard_dress_jump_14: 6686819
+      __cave_girl_leopard_dress_jump_15: 771560928
+      __cave_girl_leopard_dress_jump_16: -1603038975
+      __cave_girl_leopard_dress_jump_17: -1615437007
+      __cave_girl_leopard_dress_jump_18: 534013666
+      __cave_girl_leopard_dress_jump_19: -1152004807
+      __cave_girl_leopard_dress_jump_2: 733428788
+      __cave_girl_leopard_dress_jump_20: -767729289
+      __cave_girl_leopard_dress_jump_21: 257363765
+      __cave_girl_leopard_dress_jump_22: -710376289
+      __cave_girl_leopard_dress_jump_23: 1699506406
+      __cave_girl_leopard_dress_jump_24: -1366399179
+      __cave_girl_leopard_dress_jump_25: -806887262
+      __cave_girl_leopard_dress_jump_26: 494083783
+      __cave_girl_leopard_dress_jump_27: -2076504684
+      __cave_girl_leopard_dress_jump_28: -1867567611
+      __cave_girl_leopard_dress_jump_29: 791004683
+      __cave_girl_leopard_dress_jump_3: -933792116
+      __cave_girl_leopard_dress_jump_30: 811983579
+      __cave_girl_leopard_dress_jump_31: -512627562
+      __cave_girl_leopard_dress_jump_32: 852249374
+      __cave_girl_leopard_dress_jump_33: -308567705
+      __cave_girl_leopard_dress_jump_34: -2086916786
+      __cave_girl_leopard_dress_jump_35: -1147706770
+      __cave_girl_leopard_dress_jump_36: -1414676480
+      __cave_girl_leopard_dress_jump_37: 414444656
+      __cave_girl_leopard_dress_jump_38: 1799237413
+      __cave_girl_leopard_dress_jump_39: -366115143
+      __cave_girl_leopard_dress_jump_4: 130098125
+      __cave_girl_leopard_dress_jump_40: -1939422216
+      __cave_girl_leopard_dress_jump_41: 130535561
+      __cave_girl_leopard_dress_jump_42: 1779136158
+      __cave_girl_leopard_dress_jump_43: 2073525188
+      __cave_girl_leopard_dress_jump_44: -1432023288
+      __cave_girl_leopard_dress_jump_45: 1451832378
+      __cave_girl_leopard_dress_jump_46: 392387427
+      __cave_girl_leopard_dress_jump_47: 1229757889
+      __cave_girl_leopard_dress_jump_48: -380185248
+      __cave_girl_leopard_dress_jump_49: -2083900708
+      __cave_girl_leopard_dress_jump_5: 122649276
+      __cave_girl_leopard_dress_jump_50: -1258141104
+      __cave_girl_leopard_dress_jump_51: -1864954124
+      __cave_girl_leopard_dress_jump_52: 1452843793
+      __cave_girl_leopard_dress_jump_53: -491278358
+      __cave_girl_leopard_dress_jump_54: 1155983813
+      __cave_girl_leopard_dress_jump_55: 1859661361
+      __cave_girl_leopard_dress_jump_56: 1117820641
+      __cave_girl_leopard_dress_jump_57: -665975253
+      __cave_girl_leopard_dress_jump_58: 61237222
+      __cave_girl_leopard_dress_jump_59: 1761218717
+      __cave_girl_leopard_dress_jump_6: 417130986
+      __cave_girl_leopard_dress_jump_60: -1186111183
+      __cave_girl_leopard_dress_jump_61: 413700790
+      __cave_girl_leopard_dress_jump_62: 1962393406
+      __cave_girl_leopard_dress_jump_63: -2145990182
+      __cave_girl_leopard_dress_jump_7: -135776017
+      __cave_girl_leopard_dress_jump_8: -1777271902
+      __cave_girl_leopard_dress_jump_9: -1398740478
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

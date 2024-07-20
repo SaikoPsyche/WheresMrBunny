@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27d15b24fcc5b424496a208027e893c7, type: 3}
+  m_Name: Rock2
+  m_EditorClassIdentifier: 
+  Index: 0
+  Name: Rooock
+  Sprite: {fileID: 2775701068622945926, guid: f7ea70eedecbfe34a93819309bcaf901, type: 3}
+  IsOverrideController: 1
+  AnimatorController: {fileID: 0}
+  AnimOverrideController: {fileID: 22100000, guid: 99ae1335c878a1e45a58024d5ad19bde, type: 2}
+  BonusHealth: 4
+  BonusStrength: 2
+  JumpHeightMultiplier: 0
+  MSMultiplier: 0.5
+  ASMultiplier: 0
