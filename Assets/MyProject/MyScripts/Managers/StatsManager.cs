@@ -37,17 +37,17 @@ public class StatsManager : MonoBehaviour
 
     private void Start()
     {
-        _player = PlayerSystem.PlayerManager.Player;
+        _player = Player.PlayerSystem.Player;
         UpdatePlayerName();
-        UpdateCharacterName();
-        Debug.Log(name + $": Player name = {_player.Player.Name}");
+        //UpdateCharacterName();
+        Debug.Log(name + $": Player name = {_player.Name}");
     }
 
     private void SetPlayer(PlayerStats_SO player) => _player = player;
 
-    public void UpdatePlayerName() { Debug.Log(_player.Player.Name); _playerNameText.text = _player.Player.Name; }
+    public void UpdatePlayerName() { Debug.Log(_player.Name); _playerNameText.text = _player.Name; }
 
-    public void UpdateCharacterName() => _characterNameText.text = _player.Player.Character.Name;
+    //public void UpdateCharacterName() => _characterNameText.text = _player.Player.Character.Name;
 
     public void UpdateHP(HPPercent hpPercent)
     {
@@ -79,8 +79,8 @@ public class StatsManager : MonoBehaviour
         if (gameState == GameState.NewScene)
         {
             UpdatePlayerName();
-            UpdateCharacterName();
-            Debug.Log(name + $": Player name = {_player.Player.Name}");
+            //UpdateCharacterName();
+            Debug.Log(name + $": Player name = {_player.Name}");
         }
     }
 }

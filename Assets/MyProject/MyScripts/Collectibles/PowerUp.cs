@@ -12,7 +12,10 @@ public class PowerUp : Collectible
     private void Awake()
     {
         _sr = GetComponent<SpriteRenderer>();
+    }
 
+    private void Start()
+    {
         if (chosenPowerUp == null)
             ChoosePowerUpType();
         else SetPowerUpType(chosenPowerUp);
@@ -27,35 +30,12 @@ public class PowerUp : Collectible
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-        int noDirection = 0;
-
-        if (col.gameObject.CompareTag("Ground"))
-        {
-            //Debug.Log(name + $": Collision with {col}!");
-            if (chosenPowerUp == null) chosenPowerUp = powerUp[1]; // HealthGem
-
-            BounceCounter(bounceCount, chosenPowerUp.Bounce.MaxBounces);
-
-            if (canMove == true)
-                Bounce(chosenPowerUp.Bounce.BounceHeight, chosenPowerUp.Bounce.BounceDuration, ChooseDirection());
-            else Bounce(chosenPowerUp.Bounce.BounceHeight, chosenPowerUp.Bounce.BounceDuration, noDirection);
-        }
-    }
-
-    private void CountPowerUps()
-    {
-        UpdatePowerUpCount(chosenPowerUp.PowerUpType);
-        powerUpCount++;
-        EventManager.CollectGems(powerUpCount, chosenPowerUp.PowerUpType);
-    }
+    private void CountPowerUps() => EventManager.CollectGems(1, chosenPowerUp.PowerUpType);
 
     private void SetPowerUpType(ConsumableStats_SO chosenPowerUp)
     {
         this.chosenPowerUp = chosenPowerUp;
         _sr.sprite = this.chosenPowerUp.Sprite;
-        UpdatePowerUpCount(this.chosenPowerUp.PowerUpType);
     }
 
     private void ChoosePowerUpType()
@@ -71,37 +51,10 @@ public class PowerUp : Collectible
                 {
                     chosenPowerUp = powerUp[i];
                     _sr.sprite = chosenPowerUp.Sprite;
-                    UpdatePowerUpCount(chosenPowerUp.PowerUpType);
                 }
                 else Debug.Log(name + $": Gem {powerUp[i]} does not exist.");
             }
             else if (i > index) continue;
-        }
-    }
-
-    private void UpdatePowerUpCount(BuffType powerUpType)
-    {
-        switch (powerUpType)
-        {
-            case BuffType.None: break;
-            case BuffType.AttackSpeed:
-                powerUpCount = PlayerSystem.PlayerManager.ASGemCount;
-                break;
-            case BuffType.Health:
-                powerUpCount = PlayerSystem.PlayerManager.HealthGemCount;
-                break;
-            case BuffType.Jump:
-                powerUpCount = PlayerSystem.PlayerManager.JumpGemCount;
-                break;
-            case BuffType.MoveSpeed:
-                powerUpCount = PlayerSystem.PlayerManager.MSGemCount;
-                break;
-            case BuffType.Strength:
-                powerUpCount = PlayerSystem.PlayerManager.StrengthGemCount;
-                break;
-            case BuffType.Shrink:
-                powerUpCount = PlayerSystem.PlayerManager.GrowGemCount;
-                break;
         }
     }
 }

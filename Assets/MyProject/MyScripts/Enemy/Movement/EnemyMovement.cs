@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemyMovement : UnitMovement
 {
-    [SerializeField] protected CharacterStats_SO enemyStats;
+    [SerializeField] protected EnemyStats_SO enemyStats;
     [SerializeField] protected int defOffTimer = 1;
     [SerializeField] protected int defOnTimer = 1;
     [SerializeField] protected float hitMoveMultiplier;
@@ -19,7 +19,7 @@ public class EnemyMovement : UnitMovement
 
     private void Start()
     {
-        _unitHealth = enemyStats.BonusHealth;
+        _unitHealth = enemyStats.MaxHP;
         StartCoroutine(IdleTimer());
     }
 
@@ -46,14 +46,12 @@ public class EnemyMovement : UnitMovement
             if (isDefensive == false)
             {
                 _animator.SetTrigger("Hit");
-                TakeDamage(PlayerSystem.PlayerManager.Player.Player.TotalBonusStrength);
+                TakeDamage(Player.PlayerSystem.Player.CurrentStr);
             }
             else 
             {
-                float xPos = PlayerSystem.PlayerManager.Player.Player.TotalBonusStrength + 
-                    PlayerSystem.PlayerManager.Player.Player.TotalBonusHealth / hitMoveMultiplier;
-                PlayerSystem.PlayerManager.TakeDamage(enemyStats.BonusStrength);
-                transform.position += new Vector3(xPos, transform.position.y);
+                // knock back
+                // player take dmg
             }
         }
     }
@@ -71,7 +69,7 @@ public class EnemyMovement : UnitMovement
     protected override void Move()
     {
         int numberOfSteps = Random.Range(minSteps, maxSteps + 1);
-        StartCoroutine(StepTimer(numberOfSteps, enemyStats.MSMultiplier));
+        StartCoroutine(StepTimer(numberOfSteps, enemyStats.CurrentMS));
     }
 
     private IEnumerator DefenseTimer(bool isDeffensive)

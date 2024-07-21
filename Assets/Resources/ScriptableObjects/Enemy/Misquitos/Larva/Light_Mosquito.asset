@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27d15b24fcc5b424496a208027e893c7, type: 3}
-  m_Name: Rock3
+  m_Name: Light_Mosquito
   m_EditorClassIdentifier: 
   Index: 0
-  Name: Rockem'
-  Sprite: {fileID: -3229457778085692756, guid: 061e846bd4a5ba449bf75b630b1a7dcb, type: 3}
+  Name: Light Mosquito Larva
+  Sprite: {fileID: 21300000, guid: 8c72539f91db5884e819801a12ef39b9, type: 3}
   IsOverrideController: 1
   AnimatorController: {fileID: 0}
-  AnimOverrideController: {fileID: 22100000, guid: 854de30f3977f904abe373fd44d41ded, type: 2}
-  BonusHealth: 2
-  BonusStrength: 4
+  AnimOverrideController: {fileID: 22100000, guid: 92f3aed54d3c19a458766c5b166bd15c, type: 2}
+  BonusHealth: 0
+  BonusStrength: 0
   JumpHeightMultiplier: 0
-  MSMultiplier: 1.5
+  MSMultiplier: 0
   ASMultiplier: 0
+  SizeMultiplier: 0
+  DifficultyLevel: 0

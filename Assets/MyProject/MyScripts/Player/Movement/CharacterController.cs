@@ -107,7 +107,7 @@ public class CharacterController : MonoBehaviour, PlayerInputActions.IPlayerActi
             case InputActionPhase.Performed:
                 if (isGrounded)
                 {
-                    jumpHeight = PlayerSystem.PlayerManager.GetStat(BuffType.Jump);
+                    jumpHeight = Player.PlayerSystem.GetStat(BuffType.Jump);
                     transform.position += new Vector3(0, jumpHeight, 0);
                     isJumping = true;
                 }
@@ -129,7 +129,7 @@ public class CharacterController : MonoBehaviour, PlayerInputActions.IPlayerActi
 
         if (isRunning)
         {
-            moveSpeed = PlayerSystem.PlayerManager.GetStat(BuffType.MoveSpeed);
+            moveSpeed = Player.PlayerSystem.GetStat(BuffType.MoveSpeed);
             _speed = moveSpeed * Time.deltaTime;
             FlipSprite(newPos);
         }
@@ -188,26 +188,26 @@ public class CharacterController : MonoBehaviour, PlayerInputActions.IPlayerActi
 
     private void SetAnimatorController()
     {
-        if (PlayerSystem.PlayerAnimatorController != null || PlayerSystem.PlayerAnimOverrideController != null)
+        if (Player.PlayerAnimatorController != null || Player.PlayerAnimOverrideController != null)
         {
-            switch (PlayerSystem.PlayerManager.Player.Player.Character.IsOverrideController)
+            switch (Player.PlayerSystem.Player.IsOverrideController)
             {
                 case true:
-                    _animator.runtimeAnimatorController = PlayerSystem.PlayerAnimatorController;
+                    _animator.runtimeAnimatorController = Player.PlayerAnimatorController;
                     break;
                 case false:
-                    _animator.runtimeAnimatorController = PlayerSystem.PlayerAnimOverrideController;
+                    _animator.runtimeAnimatorController = Player.PlayerAnimOverrideController;
                     break;
             }
         }
-        else if (PlayerSystem.PlayerAnimatorController == null || PlayerSystem.PlayerAnimOverrideController == null)
+        else if (Player.PlayerAnimatorController == null || Player.PlayerAnimOverrideController == null)
             Debug.Log(name + $": Animator Controller and Animator Override Controller do not exist. " +
-                $"\nCharacter index is {PlayerSystem.PlayerManager.Player.Player.Character.Index}.");
+                $"\nCharacter index is {Player.PlayerSystem.Player.ID}.");
     }
 
     private void UpdateStats(float amount, BuffType buff)
     {
-        float total = PlayerSystem.PlayerManager.GetStat(buff);
+        float total = Player.PlayerSystem.GetStat(buff);
 
         switch (buff)
         {

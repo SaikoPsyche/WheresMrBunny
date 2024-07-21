@@ -15,7 +15,7 @@ MonoBehaviour:
   Index: 1
   Name: Blue Snake
   Sprite: {fileID: 21300000, guid: f2e9dc15d7ebda843959b922a76a2a0e, type: 3}
-  IsOverrideController: 0
+  IsOverrideController: 1
   AnimatorController: {fileID: 0}
   AnimOverrideController: {fileID: 0}
   BonusHealth: 0
@@ -24,3 +24,4 @@ MonoBehaviour:
   MSMultiplier: 0
   ASMultiplier: 0
   SizeMultiplier: 0
+  DifficultyLevel: 0

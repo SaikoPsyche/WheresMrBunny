@@ -15,7 +15,7 @@ MonoBehaviour:
   Index: 0
   Name: Black Snake
   Sprite: {fileID: 21300000, guid: 9408ccb0ab3e3d14facf654d8bdc7daf, type: 3}
-  IsOverrideController: 0
+  IsOverrideController: 1
   AnimatorController: {fileID: 0}
   AnimOverrideController: {fileID: 0}
   BonusHealth: 0
@@ -24,3 +24,4 @@ MonoBehaviour:
   MSMultiplier: 0
   ASMultiplier: 0
   SizeMultiplier: 0
+  DifficultyLevel: 0

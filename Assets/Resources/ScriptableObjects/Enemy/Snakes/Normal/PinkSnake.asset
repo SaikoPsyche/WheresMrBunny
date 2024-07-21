@@ -15,7 +15,7 @@ MonoBehaviour:
   Index: 3
   Name: Pink Snake
   Sprite: {fileID: 21300000, guid: 6cb9f214f8ec1ff47a040c582a582d1d, type: 3}
-  IsOverrideController: 0
+  IsOverrideController: 1
   AnimatorController: {fileID: 0}
   AnimOverrideController: {fileID: 0}
   BonusHealth: 0
@@ -24,3 +24,4 @@ MonoBehaviour:
   MSMultiplier: 0
   ASMultiplier: 0
   SizeMultiplier: 0
+  DifficultyLevel: 0

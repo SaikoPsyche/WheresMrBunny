@@ -12,11 +12,11 @@ public class ConsumableStats_SO : ScriptableObject
     public Sprite Sprite;
     public int BonusHealth;
     public int BonusStrength;
-    public float JumpHeightMultiplier;
-    public float MSMultiplier;
-    public float ASMultiplier;
-    public float SizeMultiplier;
-    public Bounce Bounce;
+    public float JumpHeightMultiplier = 1;
+    public float MSMultiplier = 1;
+    public float ASMultiplier = 1;
+    public float SizeMultiplier = 1;
+    public int Points;
 }
 
 [Serializable]
@@ -30,13 +30,4 @@ public enum BuffType
     Strength,
     Shrink,
     Grow
-}
-
-[Serializable]
-public struct Bounce
-{
-    public float BounceHeight;
-    public float BounceDuration;
-    public int MinBounces;
-    public int MaxBounces;
 }

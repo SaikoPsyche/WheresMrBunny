@@ -33739,6 +33739,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Passage
       objectReference: {fileID: 0}
+    - target: {fileID: 5118002072157333167, guid: 7dbdbe95f8563be488e8ee1eb757006d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 014b46fef1f3cd640a1e77f6b8596668, type: 2}
     - target: {fileID: 5334946336694383263, guid: 7dbdbe95f8563be488e8ee1eb757006d, type: 3}
       propertyPath: m_RootOrder
       value: -1

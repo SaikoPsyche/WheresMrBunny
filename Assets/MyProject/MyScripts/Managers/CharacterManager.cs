@@ -7,7 +7,7 @@ using UnityEngine.TextCore.Text;
 public class CharacterManager : MonoBehaviour
 {
     [SerializeField] private int index;
-    [SerializeField] private CharacterStats_SO[] characters;
+    [SerializeField] private EnemyStats_SO[] characters;
 
     public static CharacterDetails Character;
 
@@ -69,12 +69,11 @@ public class CharacterManager : MonoBehaviour
                 else if (characters[i].AnimatorController == null & characters[i].AnimOverrideController == null)
                     Debug.Log(name + $": Animator Controller and Animator Override Controller do not exist. \nCharacter index is {Character.Index}.");
                 
-                Character.Health = characters[i].BonusHealth;
-                Character.Strength = characters[i].BonusStrength;
-                Character.MSMultiplier = characters[i].MSMultiplier;
-                Character.JumpHeightMultiplier = characters[i].JumpHeightMultiplier;
-                Character.ASMultiplier = characters[i].ASMultiplier;
-                Character.SizeMultiplier = characters[i].SizeMultiplier;
+                Character.Health = characters[i].MaxHP;
+                Character.Strength = characters[i].CurrentStr;
+                Character.MSMultiplier = characters[i].CurrentMS;
+                Character.JumpHeightMultiplier = characters[i].CurrentJumpHeight;
+                Character.ASMultiplier = characters[i].CurrentAS;
             }
 
             else if (i > index) return;

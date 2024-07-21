@@ -20,8 +20,8 @@ public class GameManager : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.OnSaveGame += SaveGame;
-        EventManager.OnLoadGame += LoadGame;
+        //EventManager.OnSaveGame += SaveGame;
+        //EventManager.OnLoadGame += LoadGame;
         EventManager.OnChooseName += GetPlayerName;
         EventManager.OnGameStateChange += GameStateChanged;
         SceneManager.activeSceneChanged += LevelChanged;
@@ -29,8 +29,8 @@ public class GameManager : MonoBehaviour
 
     private void OnDisable()
     {
-        EventManager.OnSaveGame -= SaveGame;
-        EventManager.OnLoadGame -= LoadGame;
+        //EventManager.OnSaveGame -= SaveGame;
+        //EventManager.OnLoadGame -= LoadGame;
         EventManager.OnGameStateChange += GameStateChanged;
         EventManager.OnChooseName -= GetPlayerName;
         SceneManager.activeSceneChanged -= LevelChanged;
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
         {
             case GameState.Setup:
                 Debug.Log("Setup...");
-                CreatePlayer();
+                //CreatePlayer();
                 StartSceneTransition();
                 break;
             case GameState.Transition:
@@ -113,7 +113,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator SceneTransitionTimer()
     {
-        SaveGame(Player);
+        //SaveGame(Player);
         // Start Aniimation
 
         yield return new WaitForSeconds(transitionTime);
@@ -135,7 +135,7 @@ public class GameManager : MonoBehaviour
         _newPlayerCanvas.SetActive(true);
     }
 
-    private void CreatePlayer()
+    /*private void CreatePlayer()
     {
         try
         {
@@ -147,32 +147,32 @@ public class GameManager : MonoBehaviour
                 $"\nError Type = {nullRE.GetType()}" +
                 $"\nException = {nullRE.Message}");
         }
-    }
+    }*/
 
-    private void GetPlayerName(string playerName) => Player.Player.Name = playerName;
+    private void GetPlayerName(string playerName) => Player.Name = playerName;
 
     public void CloseUI(GameObject go)
     {
         go.SetActive(false);
     }
 
-    public void SaveGame(PlayerStats_SO playerData)
+    /*public void SaveGame(PlayerStats_SO playerData)
     {
         GameStateChanged(GameState.SaveGame);
         saveName = Player.Player.Name + "PlayerData";
         ES3.Save(saveName, playerData);
         Debug.Log(name + ": Game Saved Successfully");
         Debug.Log(name + $": Saved Player Name = {Player.Player.Name}, Saved Character = {Player.Player.Character.Name}");
-    }
+    }*/
 
-    public void LoadGame()
+    /*public void LoadGame()
     {
         Player = (PlayerStats_SO)ES3.Load(saveName);
         Player.SetCharacterDetails();
         Player.SetPlayerLevel();
         Debug.Log(name + ": Game Loaded Successfully");
         Debug.Log(name + $": Loaded Player Name = {Player.Player.Name}, Loaded Character = {Player.Player.Character.Name}");
-    }
+    }*/
 }
 
 public enum GameState
