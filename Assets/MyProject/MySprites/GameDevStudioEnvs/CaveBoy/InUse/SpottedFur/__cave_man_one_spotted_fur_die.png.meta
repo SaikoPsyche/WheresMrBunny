@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_die_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 71
+        width: 349
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f060b7e3f5636bb4d8e29953126c0efd
+      internalID: -489652532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_die_1
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 65
+        width: 568
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da46b24e4d287b545a92042ddc795b7e
+      internalID: -27648287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_die_2
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 32
+        width: 655
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a590f7d05befaa149be19b0ae9786c16
+      internalID: -1330299068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_die_3
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 12
+        width: 696
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2570725b4d85040a2e05c41cebd075
+      internalID: -824307009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +242,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      __cave_man_one_spotted_fur_die_0: -489652532
+      __cave_man_one_spotted_fur_die_1: -27648287
+      __cave_man_one_spotted_fur_die_2: -1330299068
+      __cave_man_one_spotted_fur_die_3: -824307009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

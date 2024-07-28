@@ -21,20 +21,13 @@ public class EnterPassage : MonoBehaviour
             {
                 case TransitionType.None: break;
                 case TransitionType.InScene:
-                    EventManager.Teleport(transitionType, nextPassage.position);
+                    EventManager.Instance.Teleport(transitionType, nextPassage.position);
                     break;
                 case TransitionType.ExitScene:
-                    EventManager.GameStateChange(GameState.Transition); 
+                    EventManager.Instance.GameStateChange(GameState.Transition); 
                     break;
             }
         }
     }
 }
 
-[Serializable]
-public enum TransitionType
-{
-    None,
-    InScene,
-    ExitScene,
-}

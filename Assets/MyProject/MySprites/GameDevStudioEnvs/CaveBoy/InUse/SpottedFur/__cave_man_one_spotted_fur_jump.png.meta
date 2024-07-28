@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_jump_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 972
+        width: 349
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc258c6f272d9146b5f9149d92ae76b
+      internalID: 938288708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_jump_1
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 969
+        width: 392
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa6a35ab7292ed4f8d4ef1caa4ab31c
+      internalID: 1035850746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_jump_2
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 972
+        width: 401
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde9f5427c35e7741953996951f8034d
+      internalID: -1909319394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_jump_3
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1084
+        width: 588
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c62e39db4e48454f9cddf8685d93ba1
+      internalID: -1636656225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_jump_4
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 269
+        width: 616
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8edc9837852ada44830123c054a5458
+      internalID: 2071004625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_jump_5
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 137
+        width: 638
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dc95f49d6827947aceec421686efa0
+      internalID: 394788074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_jump_6
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 71
+        width: 401
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ba93e42168e674ca89474e3958282d
+      internalID: -2095618659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_jump_7
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 60
+        width: 392
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e5b33ebcef6164fbe62ab3304f4126
+      internalID: 594243744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +326,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      __cave_man_one_spotted_fur_jump_0: 938288708
+      __cave_man_one_spotted_fur_jump_1: 1035850746
+      __cave_man_one_spotted_fur_jump_2: -1909319394
+      __cave_man_one_spotted_fur_jump_3: -1636656225
+      __cave_man_one_spotted_fur_jump_4: 2071004625
+      __cave_man_one_spotted_fur_jump_5: 394788074
+      __cave_man_one_spotted_fur_jump_6: -2095618659
+      __cave_man_one_spotted_fur_jump_7: 594243744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

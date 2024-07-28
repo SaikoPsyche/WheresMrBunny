@@ -6,27 +6,12 @@ using UnityEngine.UI;
 public class StatsManager : MonoBehaviour
 {
     [SerializeField] private HPImageState hpState;
-    private HPPercent hpPercent;
-    private Image _hpGauge;
+    private PlayerStats_SO _player;
     private TextMeshProUGUI _playerNameText;
     private TextMeshProUGUI _characterNameText;
-    private PlayerStats_SO _player;
+    private HPPercent hpPercent;
+    private Image _hpGauge;
     readonly int _scene;
-
-
-    private void OnEnable()
-    {
-        EventManager.OnPlayerHealth += UpdateHP;
-        EventManager.OnGameStateChange += UpdatePlayer;
-        EventManager.OnSaveGame += SetPlayer;
-    }
-
-    private void OnDisable()
-    {
-        EventManager.OnPlayerHealth -= UpdateHP;
-        EventManager.OnGameStateChange -= UpdatePlayer;
-        EventManager.OnSaveGame -= SetPlayer;
-    }
 
     private void Awake()
     {
@@ -35,73 +20,32 @@ public class StatsManager : MonoBehaviour
         _hpGauge = GameObject.FindWithTag("HPBar").GetComponent<Image>();
     }
 
-    private void Start()
-    {
-        _player = Player.PlayerSystem.Player;
-        UpdatePlayerName();
-        //UpdateCharacterName();
-        Debug.Log(name + $": Player name = {_player.Name}");
-    }
+    public void UpdatePlayerName(string name) { Debug.Log(this.name + ": Player's name is " + name); _playerNameText.text = name; }
 
-    private void SetPlayer(PlayerStats_SO player) => _player = player;
-
-    public void UpdatePlayerName() { Debug.Log(_player.Name); _playerNameText.text = _player.Name; }
-
-    //public void UpdateCharacterName() => _characterNameText.text = _player.Player.Character.Name;
+    public void UpdateCharacterName(string name) { Debug.Log(this.name + ": Character is " + name); _characterNameText.text = name; }
 
     public void UpdateHP(HPPercent hpPercent)
     {
-        Image image = hpState.FullHealthSprite;
+        Sprite sprite = hpState.FullHealthSprite;
 
         switch(hpPercent)
         {
             case HPPercent.FullHealth:
-                image = hpState.FullHealthSprite;
+                sprite = hpState.FullHealthSprite;
                 break;
             case HPPercent.Health75:
-                image = hpState.Health75Sprite;
+                sprite = hpState.Health75Sprite;
                 break;
             case HPPercent.HalfHealth:
-                image = hpState.HalfHealthSprite;
+                sprite = hpState.HalfHealthSprite;
                 break;
             case HPPercent.Health25:
-                image = hpState.Health25Sprite;
+                sprite = hpState.Health25Sprite;
                 break;
             case HPPercent.Dead:
-                image = hpState.DeadSprite;
+                sprite = hpState.DeadSprite;
                 break;
         }
-        _hpGauge = image;
+        _hpGauge.sprite = sprite;
     }
-
-    public void UpdatePlayer(GameState gameState)
-    {
-        if (gameState == GameState.NewScene)
-        {
-            UpdatePlayerName();
-            //UpdateCharacterName();
-            Debug.Log(name + $": Player name = {_player.Name}");
-        }
-    }
-}
-
-
-[Serializable]
-public enum HPPercent
-{
-    FullHealth,
-    Health75,
-    HalfHealth,
-    Health25,
-    Dead,
-}
-
-[Serializable]
-public struct HPImageState
-{
-    public Image FullHealthSprite;
-    public Image Health75Sprite;
-    public Image HalfHealthSprite;
-    public Image Health25Sprite;
-    public Image DeadSprite;
 }

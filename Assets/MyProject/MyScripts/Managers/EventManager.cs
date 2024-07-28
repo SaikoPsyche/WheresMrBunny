@@ -3,29 +3,36 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    public static event Action<int> OnChooseCharacter;
-    public static event Action<string> OnChooseName;
-    public static event Action<int, BuffType> OnCollectGems;
-    public static event Action<float, BuffType> OnGiveBuff;
-    public static event Action<int> OnChangeScore;
-    public static event Action<PlayerStats_SO> OnSaveGame;
-    public static event Action OnLoadGame;
-    public static event Action<int> OnTakeDamage;
-    public static event Action OnPlayerDeath;
-    public static event Action<HPPercent> OnPlayerHealth;
-    public static event Action<GameState> OnGameStateChange;
-    public static event Action<TransitionType,Vector3> OnTeleport;
+    public static EventManager Instance;
 
+    private void Awake()
+    {
+        Instance = this;
+    }
 
+    public event Action<int> OnChooseCharacter;
+    public event Action<string> OnChooseName;
+    public event Action<int, BuffType> OnCollectConsumable;
+    public event Action<float, BuffType> OnGiveBuff;
+    public event Action<int> OnChangeScore;
+    public event Action<PlayerStats_SO> OnSaveGame;
+    public event Action OnLoadGame;
+    public event Action<ObjectType, int> OnTakeDamage;
+    public event Action OnUnitDeath;
+    public event Action<ObjectType, HPPercent> OnUnitHealth;
+    public event Action<GameState> OnGameStateChange;
+    public event Action<TransitionType,Vector3> OnTeleport;
 
-    public static void ChooseCharacter(int index) => OnChooseCharacter?.Invoke(index);
-    public static void ChooseName(string name) => OnChooseName?.Invoke(name);
-    public static void CollectGems(int count, BuffType gemType) => OnCollectGems?.Invoke(count, gemType);
-    public static void GiveBuff(float amount, BuffType gemType) => OnGiveBuff?.Invoke(amount, gemType);
-    public static void ChangeScore(int score) => OnChangeScore?.Invoke(score);
-    public static void SaveGame(PlayerStats_SO playerData) => OnSaveGame?.Invoke(playerData);
-    public static void PlayerHealth(HPPercent playerHealth) => OnPlayerHealth?.Invoke(playerHealth);
-    public static void LoadGame() => OnLoadGame?.Invoke();
-    public static void GameStateChange(GameState gameState) => OnGameStateChange?.Invoke(gameState);
-    public static void Teleport(TransitionType type, Vector3 nextPos) => OnTeleport?.Invoke(type, nextPos);
+    public void ChooseCharacter(int index) => OnChooseCharacter?.Invoke(index);
+    public void ChooseName(string name) => OnChooseName?.Invoke(name);
+    public void CollectConsumable(int count, BuffType gemType) => OnCollectConsumable?.Invoke(count, gemType);
+    public void GiveBuff(float amount, BuffType gemType) => OnGiveBuff?.Invoke(amount, gemType);
+    public void ChangeScore(int score) => OnChangeScore?.Invoke(score);
+    public void SaveGame(PlayerStats_SO playerData) => OnSaveGame?.Invoke(playerData);
+    public void LoadGame() => OnLoadGame?.Invoke();
+    public void UnitHealth(ObjectType type, HPPercent playerHealth) => OnUnitHealth?.Invoke(type, playerHealth);
+    public void TakeDamage(ObjectType type, int damage) => OnTakeDamage?.Invoke(type, damage);
+    public void UnitDeath() => OnUnitDeath?.Invoke();
+    public void GameStateChange(GameState gameState) => OnGameStateChange?.Invoke(gameState);
+    public void Teleport(TransitionType type, Vector3 nextPos) => OnTeleport?.Invoke(type, nextPos);
 }

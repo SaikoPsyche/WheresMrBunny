@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private float transitionTime = 1f;
     public PlayerStats_SO Player;
-    public static int GemCount;
     private string saveName;
 
     private GameObject _startScreenCanvas;
@@ -16,30 +15,34 @@ public class GameManager : MonoBehaviour
     private int _scene;
     private GameState _gameState;
 
-    
+    private bool _isNewAccount = true;
+    private int _numberOfAccounts = 0;
 
     private void OnEnable()
     {
-        //EventManager.OnSaveGame += SaveGame;
-        //EventManager.OnLoadGame += LoadGame;
-        EventManager.OnChooseName += GetPlayerName;
-        EventManager.OnGameStateChange += GameStateChanged;
+        EventManager.Instance.OnSaveGame += SaveGame;
+        EventManager.Instance.OnLoadGame += LoadGame;
+        EventManager.Instance.OnChooseName += GetPlayerName;
+        EventManager.Instance.OnGameStateChange += GameStateChanged;
         SceneManager.activeSceneChanged += LevelChanged;
+        EventManager.Instance.OnChooseCharacter += GetCharacter;
+
     }
 
     private void OnDisable()
     {
-        //EventManager.OnSaveGame -= SaveGame;
-        //EventManager.OnLoadGame -= LoadGame;
-        EventManager.OnGameStateChange += GameStateChanged;
-        EventManager.OnChooseName -= GetPlayerName;
+        EventManager.Instance.OnSaveGame -= SaveGame;
+        EventManager.Instance.OnLoadGame -= LoadGame;
+        EventManager.Instance.OnGameStateChange += GameStateChanged;
+        EventManager.Instance.OnChooseName -= GetPlayerName;
         SceneManager.activeSceneChanged -= LevelChanged;
+        EventManager.Instance.OnChooseCharacter -= GetCharacter;
+
     }
 
     private void Awake()
     {
-        // Start Game Scene
-        _scene = SceneManager.GetActiveScene().buildIndex;
+        // UI
         _startScreenCanvas = GameObject.FindWithTag("StartScreen");
         _newPlayerCanvas = GameObject.FindWithTag("NewPlayer");
         _newPlayerCanvas.SetActive(false);
@@ -51,6 +54,8 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(ShowStartScreen());
     }
+
+    #region Scene Manager
 
     private void GameStateChanged(GameState state)
     {
@@ -69,12 +74,12 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.GameStart:
                 Debug.Log("Game Starting...");
-                EventManager.LoadGame();
+                EventManager.Instance.LoadGame();
                 // Walk through
                 break;
             case GameState.NewScene:
                 Debug.Log("New Scene...");
-                EventManager.LoadGame();
+                EventManager.Instance.LoadGame();
                 break;
             case GameState.Paused:
                 Debug.Log("Paused...");
@@ -90,25 +95,16 @@ public class GameManager : MonoBehaviour
         _scene = newScene.buildIndex;
 
         if (newScene.buildIndex == 1)
-            EventManager.GameStateChange(GameState.GameStart);
+            EventManager.Instance.GameStateChange(GameState.GameStart);
         else if (newScene.buildIndex > 1)
-            EventManager.GameStateChange(GameState.NewScene);
+            EventManager.Instance.GameStateChange(GameState.NewScene);
 
         Debug.Log(name + $": Current Scene = Scene {_scene} New Scene = Scene {newScene.buildIndex}");
     }
 
     public void GameSetUp()
     {
-        EventManager.GameStateChange(GameState.Setup);
-    }
-
-    private IEnumerator ShowStartScreen()
-    {
-        _startScreenCanvas.SetActive(false);
-
-        yield return new WaitForSeconds(0.55f); // use variable
-
-        _startScreenCanvas.SetActive(true);
+        EventManager.Instance.GameStateChange(GameState.Setup);
     }
 
     private IEnumerator SceneTransitionTimer()
@@ -121,12 +117,34 @@ public class GameManager : MonoBehaviour
         if (_scene <= SceneManager.sceneCount)
             SceneManager.LoadScene(_scene + 1);
         if (_scene >= SceneManager.sceneCount)
-            EventManager.GameStateChange(GameState.GameOver);
+            EventManager.Instance.GameStateChange(GameState.GameOver);
     }
 
     public void StartSceneTransition()
     {
         GameStateChanged(GameState.Transition);
+    }
+
+    #endregion
+
+    #region Character Manager
+
+    private void GetCharacter(int id)
+    {
+
+    }
+
+    #endregion
+
+    #region UI Manager
+
+    private IEnumerator ShowStartScreen()
+    {
+        _startScreenCanvas.SetActive(false);
+
+        yield return new WaitForSeconds(0.55f); // use variable
+
+        _startScreenCanvas.SetActive(true);
     }
 
     public void GotoPlayerCreation()
@@ -135,19 +153,45 @@ public class GameManager : MonoBehaviour
         _newPlayerCanvas.SetActive(true);
     }
 
-    /*private void CreatePlayer()
+    #endregion
+
+    #region Inventory Manager
+    #endregion
+
+    #region FX Manager
+
+    #region Particles
+    #endregion
+
+    #region Visual
+    #endregion
+
+    #endregion
+
+    #region Audio Manager
+
+    #region Music
+    #endregion
+
+    #region Sound FX
+    #endregion
+
+    #endregion
+
+    private void CreatePlayer()
     {
         try
         {
-            Player.SetCharacterDetails();
+            PlayerStats_SO character = (PlayerStats_SO)CharacterManager.Instance.Character;
+            Player = character;
         }
         catch (NullReferenceException nullRE)
         {
-            Debug.Log(name + $": Player does not exist. " +
+            Debug.Log(name + $": Cannot set player data. " +
                 $"\nError Type = {nullRE.GetType()}" +
                 $"\nException = {nullRE.Message}");
         }
-    }*/
+    }
 
     private void GetPlayerName(string playerName) => Player.Name = playerName;
 
@@ -156,33 +200,19 @@ public class GameManager : MonoBehaviour
         go.SetActive(false);
     }
 
-    /*public void SaveGame(PlayerStats_SO playerData)
+    public void SaveGame(PlayerStats_SO playerData)
     {
         GameStateChanged(GameState.SaveGame);
-        saveName = Player.Player.Name + "PlayerData";
+        saveName = Player.Name + "PlayerData";
         ES3.Save(saveName, playerData);
         Debug.Log(name + ": Game Saved Successfully");
-        Debug.Log(name + $": Saved Player Name = {Player.Player.Name}, Saved Character = {Player.Player.Character.Name}");
-    }*/
+        Debug.Log(name + $": Saved Player Name = {Player.Name}, Saved Character = {Player.CharacterName}");
+    }
 
-    /*public void LoadGame()
+    public void LoadGame()
     {
         Player = (PlayerStats_SO)ES3.Load(saveName);
-        Player.SetCharacterDetails();
-        Player.SetPlayerLevel();
         Debug.Log(name + ": Game Loaded Successfully");
-        Debug.Log(name + $": Loaded Player Name = {Player.Player.Name}, Loaded Character = {Player.Player.Character.Name}");
-    }*/
+        Debug.Log(name + $": Loaded Player Name = {Player.Name}, Loaded Character = {Player.CharacterName}");
+    }
 }
-
-public enum GameState
-{
-    Setup,
-    GameStart,
-    Paused,
-    SaveGame,
-    Transition,
-    NewScene,
-    GameOver,
-}
-

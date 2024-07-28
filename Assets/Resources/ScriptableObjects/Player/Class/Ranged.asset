@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f1f5ad18ac0ba4f951489b2355ed0b, type: 3}
+  m_Name: Ranged
+  m_EditorClassIdentifier: 
+  ID: 0
+  Name: Barb
+  Sprite: {fileID: -439313345, guid: 9618662f1afdae444b37f2fba57a3191, type: 3}
+  IsOverrideController: 1
+  AnimatorController: {fileID: 0}
+  AnimOverrideController: {fileID: 22100000, guid: 2252a0b203c30a04487e9238dc57b8d2, type: 2}
+  BaseStats:
+    MaxHP: 2
+    BaseHP: 2
+    BaseStr: 2
+    BaseJumpHeight: 1.5
+    BaseMS: 4
+    BaseAS: 1.5
+    BaseDex: 0.5
+  CurrentStats:
+    CurrentHP: 0
+    CurrentStr: 0
+    CurrentJumpHeight: 0
+    CurrentMS: 0
+    CurrentAS: 0
+    CurrentDex: 0

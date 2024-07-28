@@ -1,6 +1,6 @@
 using UnityEditor.Animations;
 using UnityEngine;
-
+[CreateAssetMenuAttribute(menuName = "Units/Base")]
 public class UnitStats_SO : ScriptableObject
 {
     [Header("Identifiers")]
@@ -13,12 +13,9 @@ public class UnitStats_SO : ScriptableObject
     public AnimatorController AnimatorController;
     public AnimatorOverrideController AnimOverrideController;
 
+    [Header("Base Stats")]
+    public BaseStats BaseStats;
+    
     [Header("Current Stats")]
-    public int MaxHP;
-    public int CurrentHP;
-    public int CurrentStr;
-    public float CurrentJumpHeight;
-    public float CurrentMS;
-    public float CurrentAS;
-    public float CurrentDex;
+    public CurrentStats CurrentStats;
 }

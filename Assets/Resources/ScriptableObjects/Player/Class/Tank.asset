@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f1f5ad18ac0ba4f951489b2355ed0b, type: 3}
+  m_Name: Tank
+  m_EditorClassIdentifier: 
+  ID: 0
+  Name: 
+  Sprite: {fileID: 0}
+  IsOverrideController: 0
+  AnimatorController: {fileID: 0}
+  AnimOverrideController: {fileID: 0}
+  BaseStats:
+    MaxHP: 5
+    BaseHP: 5
+    BaseStr: 1
+    BaseJumpHeight: 1
+    BaseMS: 2
+    BaseAS: 0.5
+    BaseDex: 1
+  CurrentStats:
+    CurrentHP: 0
+    CurrentStr: 0
+    CurrentJumpHeight: 0
+    CurrentMS: 0
+    CurrentAS: 0
+    CurrentDex: 0

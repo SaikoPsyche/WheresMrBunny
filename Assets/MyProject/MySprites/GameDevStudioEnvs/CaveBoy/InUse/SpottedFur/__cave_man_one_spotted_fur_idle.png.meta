@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_0
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 3675
+        width: 348
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bbc17c2e98af24ba3fcd1b591ce9e6
+      internalID: 563591985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_1
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 3675
+        width: 350
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b127eb8584fbb9f418f633371f5f2bad
+      internalID: 456255827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_2
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 3675
+        width: 345
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5235cb2cb21b041942a54090b78dc9
+      internalID: 508341844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_3
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 3675
+        width: 350
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb2b51a6a8c4b74aa78add526037206
+      internalID: 739941247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 2775
+        width: 345
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8b613499ee1f348a1a0a8a85e2d08d
+      internalID: 1101256007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2775
+        width: 350
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454b21bf3e6f5c241a6d8a55c487ad53
+      internalID: 1835993054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_6
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 2775
+        width: 345
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502479a71d1cb3b4db9203fe1b2a7dc1
+      internalID: 1869259960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_7
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 2775
+        width: 350
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac200c94fd4a3814a9ba4db34ea778ef
+      internalID: -1594078237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_8
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1875
+        width: 345
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1096d62c4d19fd942a63647591309e5a
+      internalID: 1761737442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_9
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1875
+        width: 350
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484576869d2ef114eb116949c541f84b
+      internalID: -1285127785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_10
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1875
+        width: 345
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f79876ab1f64d242aff26e37b94077d
+      internalID: -420178051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_11
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 1875
+        width: 350
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32208789c90b73e41adba34b9851c9db
+      internalID: -1580465233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 973
+        width: 345
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d408990901ae1c4428fa35cf383c82c3
+      internalID: -1273046792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_13
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 973
+        width: 350
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92b84cc165cc7947b5c28a3c801f6f0
+      internalID: -1636814804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_14
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 973
+        width: 345
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f53f7ac9f071847baede7f3b7136ee
+      internalID: -527712577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_15
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 973
+        width: 350
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4222e63ac16bd4898429197dac0be2
+      internalID: -1365035488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_16
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 72
+        width: 345
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286bc0ccf02df8244ab5d1710be1f766
+      internalID: 2025816321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_17
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 72
+        width: 350
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00f65be3ceb5e24781c50dbec7152b1
+      internalID: 558127370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_18
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 72
+        width: 345
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375b4e77d469bfe48a4cd5ebad459e3c
+      internalID: 1784309864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_idle_19
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 72
+        width: 350
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c3aa0eb948244aac8ac8a5a2e6b3f
+      internalID: -1933395256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +578,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      __cave_man_one_spotted_fur_idle_0: 563591985
+      __cave_man_one_spotted_fur_idle_1: 456255827
+      __cave_man_one_spotted_fur_idle_10: -420178051
+      __cave_man_one_spotted_fur_idle_11: -1580465233
+      __cave_man_one_spotted_fur_idle_12: -1273046792
+      __cave_man_one_spotted_fur_idle_13: -1636814804
+      __cave_man_one_spotted_fur_idle_14: -527712577
+      __cave_man_one_spotted_fur_idle_15: -1365035488
+      __cave_man_one_spotted_fur_idle_16: 2025816321
+      __cave_man_one_spotted_fur_idle_17: 558127370
+      __cave_man_one_spotted_fur_idle_18: 1784309864
+      __cave_man_one_spotted_fur_idle_19: -1933395256
+      __cave_man_one_spotted_fur_idle_2: 508341844
+      __cave_man_one_spotted_fur_idle_3: 739941247
+      __cave_man_one_spotted_fur_idle_4: 1101256007
+      __cave_man_one_spotted_fur_idle_5: 1835993054
+      __cave_man_one_spotted_fur_idle_6: 1869259960
+      __cave_man_one_spotted_fur_idle_7: -1594078237
+      __cave_man_one_spotted_fur_idle_8: 1761737442
+      __cave_man_one_spotted_fur_idle_9: -1285127785
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -3,7 +3,7 @@ using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[CreateAssetMenuAttribute(menuName = "Player/Stats/Active")]
+[CreateAssetMenuAttribute(menuName = "Units/Player")]
 public class PlayerStats_SO : UnitStats_SO
 {
     [Header("Base Stats")]
@@ -33,25 +33,3 @@ public class PlayerStats_SO : UnitStats_SO
     public PowerUpCount PowerUpCount;
 }
 
-[Serializable]
-public struct PlayerDetails
-{
-    public int BaseHealth;
-    public int BaseStrength;
-    public float BaseMS;
-    public float BaseJumpHeight;
-    public float BaseAttackTime;
-    public float BaseSize;
-}
-
-[Serializable]
-public struct PowerUpCount
-{
-    public int StrenthGemCount;
-    public int HealthGemCount;
-    public int MSGemCount;
-    public int JumpGemCount;
-    public int ASGemCount;
-    public int ShrinkGemCount;
-    public int GrowGemCount;
-}

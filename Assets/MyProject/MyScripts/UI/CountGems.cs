@@ -13,9 +13,9 @@ public class CountGems : MonoBehaviour
 
     private void Start() => gemText.text = gemCount.ToString();
 
-    private void OnEnable() => EventManager.OnCollectGems += CollectedGems;
+    private void OnEnable() => EventManager.Instance.OnCollectConsumable += CollectedGems;
 
-    private void OnDisable() => EventManager.OnCollectGems -= CollectedGems;
+    private void OnDisable() => EventManager.Instance.OnCollectConsumable -= CollectedGems;
 
     private void CollectedGems(int gemCount, BuffType gemType)
     {

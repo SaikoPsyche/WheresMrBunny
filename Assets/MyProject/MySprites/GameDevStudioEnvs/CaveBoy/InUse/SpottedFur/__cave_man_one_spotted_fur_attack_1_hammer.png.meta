@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_attack_1_hammer_0
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 972
+        width: 526
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df0f167e77298541a0f28d90057f6fc
+      internalID: -1904898298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_attack_1_hammer_1
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 972
+        width: 585
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc08b503ab092640837f6dad9dbfb5a
+      internalID: -1127004917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_attack_1_hammer_2
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 972
+        width: 561
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8501a5bea817b8e4698272b683491b24
+      internalID: 469155092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_attack_1_hammer_3
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 972
+        width: 490
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122111a24ea53ff46b9a0f19846713c9
+      internalID: -912050705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_attack_1_hammer_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 63
+        width: 798
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d0ed6e4d9e431439d0fdccaeaa9f3a
+      internalID: -1295687911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_attack_1_hammer_5
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 67
+        width: 795
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f82f6694132b054199ef7c7edca2325
+      internalID: -1890091452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_attack_1_hammer_6
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 78
+        width: 769
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb51c04b7432024aae493d121a7f2a6
+      internalID: -1489622941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_attack_1_hammer_7
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 45
+        width: 678
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae71c31b64a72e45bff917f8c6c1178
+      internalID: 888628875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +326,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      __cave_man_one_spotted_fur_attack_1_hammer_0: -1904898298
+      __cave_man_one_spotted_fur_attack_1_hammer_1: -1127004917
+      __cave_man_one_spotted_fur_attack_1_hammer_2: 469155092
+      __cave_man_one_spotted_fur_attack_1_hammer_3: -912050705
+      __cave_man_one_spotted_fur_attack_1_hammer_4: -1295687911
+      __cave_man_one_spotted_fur_attack_1_hammer_5: -1890091452
+      __cave_man_one_spotted_fur_attack_1_hammer_6: -1489622941
+      __cave_man_one_spotted_fur_attack_1_hammer_7: 888628875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

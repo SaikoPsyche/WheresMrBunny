@@ -11,12 +11,12 @@ public class TransitionController : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.OnTeleport += TriggerTransition;
+        EventManager.Instance.OnTeleport += TriggerTransition;
     }
 
     private void OnDisable()
     {
-        EventManager.OnTeleport -= TriggerTransition;
+        EventManager.Instance.OnTeleport -= TriggerTransition;
 
     }
 

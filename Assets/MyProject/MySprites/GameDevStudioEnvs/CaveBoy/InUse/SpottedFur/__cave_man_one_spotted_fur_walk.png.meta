@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_0
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1867
+        width: 353
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bce8ae6e96f5e4bb516b18907a8278
+      internalID: 1404041874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_1
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1884
+        width: 344
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b125e9c91fadf4342a764f2f5198ac2c
+      internalID: -284848015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_2
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 1878
+        width: 330
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fe20e10dc10454f8b2b3d354bb2610
+      internalID: -1165604685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_3
+      rect:
+        serializedVersion: 2
+        x: 3821
+        y: 1880
+        width: 344
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdff1491d3113aa458dcc886f3254463
+      internalID: -1728959801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_4
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 975
+        width: 359
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6405e72db897e42bee878f51ba9000
+      internalID: 2073813716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_5
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 968
+        width: 399
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ee562fa2c7c114292600d4190db6e2
+      internalID: -932760444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_6
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 979
+        width: 455
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92feb6b1ea943d4d9533960912f9897
+      internalID: -1848405989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_7
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 972
+        width: 403
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee7fd2bd1857a948b18036c01ec917d
+      internalID: 1645111190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 56
+        width: 361
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5b48d623cac584bbd9388b2bf48e81
+      internalID: -1524425632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_9
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 67
+        width: 344
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aef185895dbe441ab466f118bbf2b0
+      internalID: 2007066627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_10
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 67
+        width: 341
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d55236a138022646842cccac76720cb
+      internalID: -278779029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __cave_man_one_spotted_fur_walk_11
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 56
+        width: 355
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4443ae15d35f9754ebaa0b10a0f56f74
+      internalID: -501038715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +410,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      __cave_man_one_spotted_fur_walk_0: 1404041874
+      __cave_man_one_spotted_fur_walk_1: -284848015
+      __cave_man_one_spotted_fur_walk_10: -278779029
+      __cave_man_one_spotted_fur_walk_11: -501038715
+      __cave_man_one_spotted_fur_walk_2: -1165604685
+      __cave_man_one_spotted_fur_walk_3: -1728959801
+      __cave_man_one_spotted_fur_walk_4: 2073813716
+      __cave_man_one_spotted_fur_walk_5: -932760444
+      __cave_man_one_spotted_fur_walk_6: -1848405989
+      __cave_man_one_spotted_fur_walk_7: 1645111190
+      __cave_man_one_spotted_fur_walk_8: -1524425632
+      __cave_man_one_spotted_fur_walk_9: 2007066627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

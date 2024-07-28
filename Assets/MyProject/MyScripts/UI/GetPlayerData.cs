@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class GetPlayerData : MonoBehaviour
 {
-    [SerializeField] private int index;
+    [SerializeField] private int index = -1;
 
     private TextMeshProUGUI _playerNameInput;
     private TextMeshProUGUI _playerNamePlaceholder;
@@ -19,24 +19,21 @@ public class GetPlayerData : MonoBehaviour
 
     public void SetCharacterIndex()
     {
-        EventManager.ChooseCharacter(index);
+        string warningText = "Please Choose a Character";
+        if (index > -1) EventManager.Instance.ChooseCharacter(index);
+        // else WarningManager.Instance.DisplayWarning(null, warningText, false, true);
     }
 
     public void VerifyPlayerName()
     {
         string warningText = "Invalid name. \nDefault name will be used.";
-        Vector3 position = new(Screen.width / 2, Screen.height / 2);
-        Regex regex = new("([a-zA-Z_][a-zA-Z0-9_]*){5,12}");
+        Regex regex = new("([a-zA-Z0-9_][a-zA-Z0-9_]*){1,12}");
         string _name = _playerNamePlaceholder.text;
 
         if (regex.IsMatch(_playerNameInput.text)) _name = _playerNameInput.text;
-        else WarningManager.Instance.DisplayWarning(position, warningText);
+        else WarningManager.Instance.DisplayWarning(null, warningText);
 
-        SetPlayerName(_name);
+        EventManager.Instance.ChooseName(_name);
     }
 
-    public void SetPlayerName(string name)
-    {
-        EventManager.ChooseName(name);
-    }
 }

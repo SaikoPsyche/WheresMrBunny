@@ -6,35 +6,14 @@ using UnityEngine.TextCore.Text;
 
 public class CharacterManager : MonoBehaviour
 {
-    [SerializeField] private int index;
-    [SerializeField] private EnemyStats_SO[] characters;
+    public static CharacterManager Instance;
 
-    public static CharacterDetails Character;
+    [SerializeField] private UnitStats_SO[] characters;
+    public UnitStats_SO Character;
 
-    public struct CharacterDetails
+    private void Awake()
     {
-        public int Index;
-        public string Name;
-        public Sprite Sprite;
-        public bool IsOverrideController;
-        public AnimatorController AnimatorController;
-        public AnimatorOverrideController AnimOverrideController;
-        public int Health;
-        public int Strength;
-        public float MSMultiplier;
-        public float JumpHeightMultiplier;
-        public float ASMultiplier;
-        public float SizeMultiplier;
-    }
-
-    private void OnEnable()
-    {
-        EventManager.OnChooseCharacter += GetCharacter;
-    }
-
-    private void OnDisable()
-    {
-        EventManager.OnChooseCharacter -= GetCharacter;
+        Instance = this;
     }
 
     public void GetCharacter(int index)
@@ -43,42 +22,10 @@ public class CharacterManager : MonoBehaviour
         {
             if (i == index)
             {
-                Character.Index = index; // for debugging
-                Character.Name = characters[i].Name;
-
-                if (characters[i].Sprite != null) Character.Sprite = characters[i].Sprite;
-                else Debug.Log(name + $": Sprite does not exist. \nCharacter index is {Character.Index}.");
-
-                Character.IsOverrideController = characters[i].IsOverrideController;
-                Debug.Log(name + $": Use Character Override Controller = {Character.IsOverrideController}");
-
-                if (characters[i].AnimatorController != null || characters[i].AnimOverrideController != null)
-                {
-                    switch (Character.IsOverrideController)
-                    {
-                        case true:
-                            Character.AnimOverrideController = characters[i].AnimOverrideController;
-                            Debug.Log(name + $": AnimatorController = {Character.AnimOverrideController}");
-                            break;
-                        case false:
-                            Character.AnimatorController = characters[i].AnimatorController;
-                            Debug.Log(name + $": AnimatorController = {Character.AnimatorController}");
-                            break;
-                    }
-                }
-                else if (characters[i].AnimatorController == null & characters[i].AnimOverrideController == null)
-                    Debug.Log(name + $": Animator Controller and Animator Override Controller do not exist. \nCharacter index is {Character.Index}.");
-                
-                Character.Health = characters[i].MaxHP;
-                Character.Strength = characters[i].CurrentStr;
-                Character.MSMultiplier = characters[i].CurrentMS;
-                Character.JumpHeightMultiplier = characters[i].CurrentJumpHeight;
-                Character.ASMultiplier = characters[i].CurrentAS;
+                Character = characters[i];
             }
 
             else if (i > index) return;
         }
-
-        this.index = index; // for debugging
     }
 }

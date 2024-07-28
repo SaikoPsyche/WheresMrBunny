@@ -31,16 +31,26 @@ public class WarningManager : MonoBehaviour
         warningUI.SetActive(false);
     }
 
-    public void DisplayWarning(Vector3 pos, string message)
+    public void DisplayWarning(Vector3? pos, string message)
     {
+        if (pos == null) pos = new(Screen.width / 2, Screen.height / 2);
+
         warningUI.SetActive(true);
-        warningUI.transform.position = pos;
+        warningUI.transform.position = (Vector3)pos;
         warningUI.transform.rotation = Quaternion.identity;
         warningText = warningUI.GetComponentInChildren<TextMeshProUGUI>();
         warningText.text = message;
     }
 
-    private void SetButtonRefernces(GameObject warningUI)
+    public void DisplayWarning(Vector3? pos, string message, bool showOk, bool showCancel)
+    {
+        DisplayWarning(pos, message);
+        warningUI.transform.Find("OKButton").gameObject.SetActive(showOk);
+        warningUI.transform.Find("CancelButton").gameObject.SetActive(showCancel);
+    }
+
+
+    private void SetButtonRefernces(GameObject warningUI) // Make more reusable
     {
         Debug.Log(name + $": Current button is {button}");
 
@@ -55,14 +65,9 @@ public class WarningManager : MonoBehaviour
         cancelButton.onClick.AddListener(cancelAction);
         Debug.Log(name + ": Destroying warning UI.");
 
-        UnityAction okAction = () => EventManager.GameStateChange(GameState.Setup);
+        UnityAction okAction = () => EventManager.Instance.GameStateChange(GameState.Setup);
         okButton.onClick.AddListener(okAction);
         Debug.Log(name + ": Using default name.");
     }
 }
 
-public enum ButtonType
-{
-    oK,
-    cancel
-}
